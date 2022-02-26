@@ -1,5 +1,0 @@
-Test,VI,Avaliable Before Download (KB),Avaliable After Download (KB),Available Before Unload (KB),Available After Unload (KB),Download Usage (KB),Execution Usage (KB),Total Usage (KB)
-NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Get_Target_Memory_Info.vi,1791240.0000,1789736.0000,1789736.0000,1784012.0000,1504.000,0.000,1504.000
-NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Test_NetworkStream_Sweep_BufferSize.vi,1783180.0000,1782564.0000,1780884.0000,1780884.0000,616.000,1680.000,2296.000
-NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Get_Target_Memory_Info.vi,1781400.0000,1781276.0000,1781276.0000,1781276.0000,124.000,0.000,124.000
-NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Pre_NetworkStream_Sweep_BufferSize.vi,1781020.0000,1781004.0000,,,16.000,,

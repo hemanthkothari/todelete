@@ -1,6 +1,0 @@
-7/5/2019 12:49:28 PM
-machine name:RTATSVM-10
-OS Deatails:Win 10
-Machine OS Bitness:64
-Target Name:RT-cRIO-9014--2,RT-cRIO-9024--5,RT-cRIO-9068--6,
-OS flavour of target:VxWorks,VxWorks,ARM,

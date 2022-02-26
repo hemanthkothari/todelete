@@ -1,7 +1,0 @@
-from LVIntegrationTestSetup.TestBase.MigrationFromLastDriverRelease.MigrationFromLastDriverRelease import MigrationFromLastDriverRelease
-previouslyreleasedlabviewversion = 2021
-labviewversion = 2022
-migrationFromLastDriverRelease = MigrationFromLastDriverRelease('32', previouslyreleasedlabviewversion, labviewversion)
-#migrationFromLastDriverRelease.DirectorySnapshotBeforeDriverInstallation()
-#migrationFromLastDriverRelease.DirectorySnapshotAfterInstallation()
-migrationFromLastDriverRelease.CopyDriverInstalledFiles()
