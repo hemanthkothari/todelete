@@ -1,0 +1,68 @@
+2 user lvadmin Pass:labview===
+Least User
+HDD = c:233GB D 232GB
+total RAM =2 Gb
+socket 1
+cores:4
+logical Processors:8
+
+Host Name:                 RTDATA
+OS Name:                   Microsoft Windows 7 Professional 
+OS Version:                6.1.7601 Service Pack 1 Build 7601
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          LabVIEW
+Registered Organization:   National Instruments
+Product ID:                00371-868-0000007-85986
+Original Install Date:     8/19/2013, 3:26:48 PM
+System Boot Time:          7/12/2018, 2:17:14 PM
+System Manufacturer:       Dell Inc.
+System Model:              Precision WorkStation T3500  
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 26 Stepping 5 GenuineIntel ~2800 Mhz
+BIOS Version:              Dell Inc. A10, 1/21/2011
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              N/A
+Time Zone:                 (UTC-06:00) Central Time (US & Canada)
+Total Physical Memory:     6,142 MB
+Available Physical Memory: 1,692 MB
+Virtual Memory: Max Size:  12,281 MB
+Virtual Memory: Available: 10,083 MB
+Virtual Memory: In Use:    2,198 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\RTDATA
+Hotfix(s):                 14 Hotfix(s) Installed.
+                           [01]: KB971033
+                           [02]: KB2305420
+                           [03]: KB2393802
+                           [04]: KB2425227
+                           [05]: KB2475792
+                           [06]: KB2479628
+                           [07]: KB2482017
+                           [08]: KB2484033
+                           [09]: KB2485376
+                           [10]: KB2487426
+                           [11]: KB2488113
+                           [12]: KB958488
+                           [13]: KB976902
+                           [14]: KB976932
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Broadcom NetXtreme 57xx Gigabit Controller
+                                 Connection Name: Local Area Connection
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     130.164.44.10
+                                 IP address(es)
+                                 [01]: 10.0.86.115
+                                 [02]: fe80::84a7:aa52:51fc:a9c
+                           [02]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: VirtualBox Host-Only Network
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.56.1
+                                 [02]: fe80::7ce3:d0e7:d1e:f2a

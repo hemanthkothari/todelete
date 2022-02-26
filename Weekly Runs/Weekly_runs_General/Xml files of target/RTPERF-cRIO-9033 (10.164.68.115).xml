@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<max_report title="MAX Configuration Report" timeStamp="5/24/2019 1:21:31 PM" backText="Back to top" stylesheet="embedded">
+<max_heading2>MAX Summary</max_heading2>
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#RTPERF-cRIO-9033" openNewPage="false">RTPERF-cRIO-9033</max_link>
+<max_list format="nobullet">
+<max_listitem>
+
+Devices and Interfaces
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#NI cRIO-9033 &quot;RIO0&quot;" openNewPage="false">NI cRIO-9033 "RIO0"</max_link>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+
+<max_link name="#Software" openNewPage="false">Software</max_link>
+<max_list format="nobullet">
+<max_listitem>
+Greenway's test IO (for IO variables) 3.7.0
+</max_listitem>
+<max_listitem>
+I/O Variable Remote Configuration Web Service 19.0
+</max_listitem>
+<max_listitem>
+LabVIEW Real-Time 19.0.0
+</max_listitem>
+<max_listitem>
+Network Streams 19.0
+</max_listitem>
+<max_listitem>
+NI Scan Engine 8.0
+</max_listitem>
+<max_listitem>
+NI System Configuration Remote Support 19.0.0
+</max_listitem>
+<max_listitem>
+<max_link name="#NI Web-based Configuration and Monitoring 19.0.0" openNewPage="false">NI Web-based Configuration and Monitoring 19.0.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+Hardware Configuration Web Support 19.0.0
+</max_listitem>
+<max_listitem>
+Network Configuration Web Support 19.0.0
+</max_listitem>
+<max_listitem>
+Software Management Web Support 19.0.0
+</max_listitem>
+<max_listitem>
+Time Configuration Web Support 19.0.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+<max_link name="#NI-RIO 19.0" openNewPage="false">NI-RIO 19.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+CompactRIO Support 19.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+NI-RIO IO Scan 19.0
+</max_listitem>
+<max_listitem>
+NI-RIO Server 19.0
+</max_listitem>
+<max_listitem>
+Remote Panel Server for LabVIEW RT 19.0.0
+</max_listitem>
+<max_listitem>
+Run-Time Engine for Web Services 19.0.0
+</max_listitem>
+<max_listitem>
+SSL Support for LabVIEW RT 19.0.0
+</max_listitem>
+<max_listitem>
+WebDAV Server 19.0.0
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+<max_br/>
+<max_br/>
+
+<max_provider_report name="RTPERF-cRIO-9033" anchor="RTPERF-cRIO-9033">
+<max_paragraph>
+<max_heading1>System Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Hostname</max_cell>
+<max_cell align="left" width="50%">RTPERF-cRIO-9033</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">DNS Name</max_cell>
+<max_cell align="left" width="50%">rtperf-crio-9033.ni.corp.natinst.com</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">cRIO-9033</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Serial Number</max_cell>
+<max_cell align="left" width="50%">01A262DB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Firmware Version</max_cell>
+<max_cell align="left" width="50%">7.0.0f0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Operating System</max_cell>
+<max_cell align="left" width="50%">NI Linux Real-Time x64 4.14.87-rt49-cg-7.0.0f0-x64-189</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">System Start Time</max_cell>
+<max_cell align="left" width="50%">5/13/2019 12:53:07 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Comments</max_cell>
+<max_cell align="left" width="50%"/>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Locale</max_cell>
+<max_cell align="left" width="50%">English</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>Startup Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Force Safe Mode</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Enable Console Out</max_cell>
+<max_cell align="left" width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Disable RT Startup App</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Disable FPGA Startup App</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Enable Secure Shell Server (sshd)</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">LabVIEW Project Access</max_cell>
+<max_cell align="left" width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Enable Embedded UI</max_cell>
+<max_cell align="left" width="50%">True</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>System Resources</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Total Physical Memory</max_cell>
+<max_cell align="left" width="50%">1.84 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Free Physical Memory</max_cell>
+<max_cell align="left" width="50%">1.47 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Total Virtual Memory</max_cell>
+<max_cell align="left" width="50%">1.84 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Free Virtual Memory</max_cell>
+<max_cell align="left" width="50%">1.66 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Primary Disk Capacity</max_cell>
+<max_cell align="left" width="50%">7.08 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Primary Disk Free Space</max_cell>
+<max_cell align="left" width="50%">6.66 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">CPU Model</max_cell>
+<max_cell align="left" width="50%">Intel(R) Atom(TM) CPU  E3825  @ 1.33GHz</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_table border="false">
+<max_row>
+<max_cell colspan="2">
+<max_br/>
+</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" colspan="2">Configuration</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">MAC Address:</max_cell>
+<max_cell align="left">00:80:2F:19:CF:C3</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">DHCP:</max_cell>
+<max_cell align="left">Enabled</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">IP Address:</max_cell>
+<max_cell align="left">10.164.68.115</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Subnet Mask:</max_cell>
+<max_cell align="left">255.255.254.0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Gateway:</max_cell>
+<max_cell align="left">10.164.68.1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">DNS Server:</max_cell>
+<max_cell align="left">172.24.31.70</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="NI cRIO-9033 &quot;RIO0&quot;" anchor="NI cRIO-9033 &quot;RIO0&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">RIO0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI cRIO-9033</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Serial Number</max_cell>
+<max_cell align="left" width="50%">01A262DB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">PCI Bus</max_cell>
+<max_cell align="left" width="50%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">PCI Device</max_cell>
+<max_cell align="left" width="50%">0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">RIO Resource Name</max_cell>
+<max_cell align="left" width="50%">RIO0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Firmware Autoload Setting</max_cell>
+<max_cell align="left" width="50%">Autoload on reboot</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_br/>
+<max_heading2>Status</max_heading2>
+Error -63044 (kRIOStatusRioRpcServerMissing):&#13;
+The RIO server could not be found on the specified remote device. Ensure that NI-RIO software is installed and that the RIO server is running and properly configured.&#13;
+&#13;
+For NI-RIO 2.3 and later, refer to Software&gt;&gt;NI-RIO&gt;&gt;NI-RIO Settings under the system in MAX.&#13;
+Prior to NI-RIO 2.3, refer to Software&gt;&gt;NI-VISA&gt;&gt;VISA Options under the system in MAX.
+<max_heading2>Identification</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="25%">Resource</max_cell>
+<max_cell>rio://RTPERF-cRIO-9033/RIO0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">RIO Alias on My System</max_cell>
+<max_cell/>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">RIO Alias on RTPERF-cRIO-9033:</max_cell>
+<max_cell/>
+</max_row>
+</max_table>
+<max_heading2>Product Information</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="25%">Vendor</max_cell>
+<max_cell>National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">Product</max_cell>
+<max_cell>Error -63044</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">Serial Number</max_cell>
+<max_cell>Error -63044</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="Software" anchor="Software">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>Remote Panel Server for LabVIEW RT</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Allows accessing VIs as remote panels.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-RIO IO Scan</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>NI-RIO IO Scan provides NI Scan Engine support for C Series I/O.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Network Streams</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>Network Streams for LabVIEW Real-Time provides the ability to communicate through network streams from VIs running on the target.  Network streams facilitate lossless communication between the target and another computing device on the network.</max_cell>
+</max_row>
+<max_row>
+<max_cell>I/O Variable Remote Configuration Web Service</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>The I/O Variable Remote Configuration Web Service allows you to configure I/O variables hosted on the RT target from a remote computer. Warning: Installing this component could increase your target's exposure to web-based attacks. Visit ni.com/info and enter the Info Code RTSecurity for details on protecting your system.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-RIO Server</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>This component installs the RPC Server of NI-RIO. The NI-RIO Server enables remote hosts to communicate with FPGA targets on this computer.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI Web-based Configuration and Monitoring</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Enables remote configuration and monitoring of the system from a standard Web browser.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Greenway's test IO (for IO variables)</max_cell>
+<max_cell>3.7.0</max_cell>
+<max_cell>Allows for testing the entire IO scan stack</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI Scan Engine</max_cell>
+<max_cell>8.0</max_cell>
+<max_cell>The NI Scan Engine enables access to I/O channels by storing data in a global memory map and updating all values at a single rate. By default, the NI Scan Engine runs in a thread above time-critical priority on RT targets.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-RIO</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>The NI-RIO driver enables LabVIEW Real-Time and remote hosts to communicate with an FPGA target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>WebDAV Server</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>A module for the system web server that enables it to act as a WebDAV server. This allows remote access to the target's file system via a standard, IT friendly, secure protocol.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Run-Time Engine for Web Services</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Allows LabVIEW VIs to be executed as Web Services.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI System Configuration Remote Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI System Configuration Remote Support provides web services for network discovery and configuration.</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW Real-Time</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>LabVIEW Real-Time provides the core Real-Time Engine. You must have this component installed to be able to use any other software component.</max_cell>
+</max_row>
+<max_row>
+<max_cell>SSL Support for LabVIEW RT</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>SSL support.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="NI Web-based Configuration and Monitoring 19.0.0" anchor="NI Web-based Configuration and Monitoring 19.0.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>Hardware Configuration Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Hardware Configuration Web Support installs the NI Web-based Configuration and Monitoring System Configuration page. Use this page to view and set system and startup settings for your target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Network Configuration Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Network Configuration Web Support installs the NI Web-based Configuration and Monitoring Network Configuration page. Use this page to view and set the network settings for your target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Software Management Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Software Management Web Support installs the NI Web-based Configuration and Monitoring Software Management page. Use this page to view information about the software installed on your target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Time Configuration Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Time Configuration Web Support installs the NI Web-based Configuration and Monitoring Time Configuration page. Use this page to configure the date and time settings for your target.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="NI-RIO 19.0" anchor="NI-RIO 19.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>CompactRIO Support</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>CompactRIO Support provides NI-RIO driver support for CompactRIO controllers and chassis.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+<max_br/>
+<max_heading1>NI-RIO Settings</max_heading1>
+<max_heading2>RIO Server</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="25%">Port</max_cell>
+<max_cell/>
+</max_row>
+</max_table>
+<max_heading2>Remote Device Access</max_heading2>
+The remote device access list on this system is blank, which means that no remote systems have access to RIO devices on this system.
+</max_provider_report>
+</max_report>

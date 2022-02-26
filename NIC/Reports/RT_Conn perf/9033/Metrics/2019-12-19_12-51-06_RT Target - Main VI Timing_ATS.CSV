@@ -1,0 +1,11 @@
+Test,VI,Main VI Load Time (ms),Main VI Deploy Time (ms),Main VI Execution Time (ms),Main VI Total Time (ms)
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Test_NetworkStream_Sweep_BufferSize.vi,54,2184,30436,32674.000
+NetworkStream\Test_NetworkStream_Sweep_BufferSize_SMP.vi,Test_NetworkStream_Sweep_BufferSize_SMP.vi,82,2342,30276,32700.000
+NetworkStream\Test_NetworkStream_Sweep_NumElements.vi,Test_NetworkStream_Sweep_NumElements.vi,38,2159,30521,32718.000
+NetworkStream\Test_NetworkStream_Sweep_NumElements_SMP.vi,Test_NetworkStream_Sweep_NumElements_SMP.vi,45,2363,30652,33060.000
+NetworkStream\Test_NetworkStream_Throughput.vi,Test_NetworkStream_Throughput.vi,34,1989,5181,7204.000
+NetworkStream\Test_NetworkStream_Throughput_SMP.vi,Test_NetworkStream_Throughput_SMP.vi,42,2281,5173,7496.000
+TCP\Test_TCP_Sweep_NumElements.vi,Test_TCP_Sweep_NumElements.vi,43,2173,30537,32753.000
+TCP\Test_TCP_Sweep_NumElements_SMP.vi,Test_TCP_Sweep_NumElements_SMP.vi,48,2406,30523,32977.000
+TCP\Test_TCP_Throughput.vi,Test_TCP_Throughput.vi,37,1987,5224,7248.000
+TCP\Test_TCP_Throughput_SMP.vi,Test_TCP_Throughput_SMP.vi,45,2161,5210,7416.000

@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<max_report title="MAX Configuration Report" timeStamp="5/24/2019 1:24:05 PM" backText="Back to top" stylesheet="embedded">
+<max_heading2>MAX Summary</max_heading2>
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#RT-PXIe-8115" openNewPage="false">RT-PXIe-8115</max_link>
+<max_list format="nobullet">
+<max_listitem>
+
+Devices and Interfaces
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#ASRL1::INSTR &quot;COM1&quot;" openNewPage="false">ASRL1::INSTR "COM1"</max_link>
+</max_listitem>
+<max_listitem>
+Network Devices
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#ptp" openNewPage="false">ptp</max_link>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+<max_link name="#NI PXIe-1071 &quot;PXIChassis1&quot;" openNewPage="false">NI PXIe-1071 "PXIChassis1"</max_link>
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#1: Built-in GPIB" openNewPage="false">1: Built-in GPIB</max_link>
+</max_listitem>
+<max_listitem>
+<max_link name="#1: NI PXIe-8115 &quot;PXI1Slot1&quot;" openNewPage="false">1: NI PXIe-8115 "PXI1Slot1"</max_link>
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+
+<max_link name="#Software" openNewPage="false">Software</max_link>
+<max_list format="nobullet">
+<max_listitem>
+Broadcom 57xx Gigabit Ethernet Driver 19.0.0
+</max_listitem>
+<max_listitem>
+DataSocket for LabVIEW Real-Time 19.0.0
+</max_listitem>
+<max_listitem>
+EPICS Client I/O Server 19.0.0
+</max_listitem>
+<max_listitem>
+EPICS Server I/O Server 19.0.0
+</max_listitem>
+<max_listitem>
+HTTP Client 19.0.0
+</max_listitem>
+<max_listitem>
+HTTP Client with SSL Support 19.0.0
+</max_listitem>
+<max_listitem>
+I/O Variable Remote Configuration Web Service 19.0
+</max_listitem>
+<max_listitem>
+Intel 1000e Ethernet Driver 19.0.0
+</max_listitem>
+<max_listitem>
+Intel 8254x Ethernet Driver 19.0.0
+</max_listitem>
+<max_listitem>
+Intel 8255x 10/100Mbps Ethernet Driver 19.0.0
+</max_listitem>
+<max_listitem>
+LabVIEW 2019 Advanced Signal Processing Toolkit 19.0.0
+</max_listitem>
+<max_listitem>
+LabVIEW 2019 Digital Filter Design Toolkit 19.0.0
+</max_listitem>
+<max_listitem>
+LabVIEW Control Design and Simulation 19.0
+</max_listitem>
+<max_listitem>
+<max_link name="#LabVIEW Real-Time 19.0.0" openNewPage="false">LabVIEW Real-Time 19.0.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+NI RT Extensions for SMP (MultiCore Support) 19.0.0
+</max_listitem>
+<max_listitem>
+Language Support for Japanese 19.0.0
+</max_listitem>
+<max_listitem>
+Language Support for Simplified Chinese 19.0.0
+</max_listitem>
+<max_listitem>
+Microsoft Visual Studio 2008 Runtime Support 1.0
+</max_listitem>
+<max_listitem>
+Microsoft Visual Studio 2010 Runtime Support 1.1
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+Language Support for LabVIEW RT 1.0.0.7
+</max_listitem>
+<max_listitem>
+Modbus I/O Server 19.0.0
+</max_listitem>
+<max_listitem>
+Network Streams 19.0
+</max_listitem>
+<max_listitem>
+Network Variable Engine 19.0.0
+</max_listitem>
+<max_listitem>
+NI 1588-2008 Network Management 19.0.0
+</max_listitem>
+<max_listitem>
+NI Application Web Server 19.0.0
+</max_listitem>
+<max_listitem>
+NI PXI Platform Services 19.0.0
+</max_listitem>
+<max_listitem>
+NI Scan Engine 8.0
+</max_listitem>
+<max_listitem>
+NI System Configuration 19.0.0
+</max_listitem>
+<max_listitem>
+NI System Configuration Remote Support 19.0.0
+</max_listitem>
+<max_listitem>
+NI Vision RT 19.0.0
+</max_listitem>
+<max_listitem>
+<max_link name="#NI Web-based Configuration and Monitoring 19.0.0" openNewPage="false">NI Web-based Configuration and Monitoring 19.0.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+Hardware Configuration Web Support 19.0.0
+</max_listitem>
+<max_listitem>
+Network Configuration Web Support 19.0.0
+</max_listitem>
+<max_listitem>
+Network Browser Web Support 19.0.0
+</max_listitem>
+<max_listitem>
+Software Management Web Support 19.0.0
+</max_listitem>
+<max_listitem>
+Time Configuration Web Support 19.0.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+<max_link name="#NI-IMAQdx 19.0.0" openNewPage="false">NI-IMAQdx 19.0.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+GigE Vision Camera Support 19.0.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+NI-Industrial Communications for EtherNet/IP 19.0.0
+</max_listitem>
+<max_listitem>
+<max_link name="#NI-RIO 19.0" openNewPage="false">NI-RIO 19.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+CompactRIO Support 19.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+NI-RIO IO Scan 19.0
+</max_listitem>
+<max_listitem>
+NI-Serial RT 19.0.0
+</max_listitem>
+<max_listitem>
+NI-TimeSync Time Reference for IEEE 1588-2008 19.0.0
+</max_listitem>
+<max_listitem>
+<max_link name="#NI-VISA 19.0.0" openNewPage="false">NI-VISA 19.0.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+NI-VISA GPIB Passport
+</max_listitem>
+<max_listitem>
+NI-VISA ENET-ASRL Passport
+</max_listitem>
+<max_listitem>
+NI-VISA ENET Passport
+</max_listitem>
+<max_listitem>
+NI-VISA PXI Passport
+</max_listitem>
+<max_listitem>
+NI-VISA USB Passport
+</max_listitem>
+<max_listitem>
+NI-VISA Remote Passport
+</max_listitem>
+<max_listitem>
+NI-VISA Server 19.0.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+NI-Watchdog 19.0.0
+</max_listitem>
+<max_listitem>
+NVIDIA Ethernet Driver 19.0.0
+</max_listitem>
+<max_listitem>
+Remote Panel Server for LabVIEW RT 19.0.0
+</max_listitem>
+<max_listitem>
+Run-Time Engine for Web Services 19.0.0
+</max_listitem>
+<max_listitem>
+SMTP Client 19.0.0
+</max_listitem>
+<max_listitem>
+SMTP Client with SSL Support 19.0.0
+</max_listitem>
+<max_listitem>
+SSL Support for LabVIEW RT 19.0.0
+</max_listitem>
+<max_listitem>
+System State Publisher 7.0.0
+</max_listitem>
+<max_listitem>
+USB Support 1.6
+</max_listitem>
+<max_listitem>
+Variable Client Support for LabVIEW RT 19.0.0
+</max_listitem>
+<max_listitem>
+<max_link name="#Variable Legacy Protocol Support 19.0.0" openNewPage="false">Variable Legacy Protocol Support 19.0.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+Variable Legacy Server Support 19.0.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+Video Display Support 19.0.0
+</max_listitem>
+<max_listitem>
+WebDAV Client 19.0.0
+</max_listitem>
+<max_listitem>
+WebDAV Client with SSL Support 19.0.0
+</max_listitem>
+<max_listitem>
+WebDAV Server 19.0.0
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+<max_br/>
+<max_br/>
+
+<max_provider_report name="RT-PXIe-8115" anchor="RT-PXIe-8115">
+<max_paragraph>
+<max_heading1>System Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Hostname</max_cell>
+<max_cell align="left" width="50%">RT-PXIe-8115</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">DNS Name</max_cell>
+<max_cell align="left" width="50%">RT-PXIe-8115</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">PXIe-8115</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Serial Number</max_cell>
+<max_cell align="left" width="50%">2F147E10</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Firmware Version</max_cell>
+<max_cell align="left" width="50%">13.1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Operating System</max_cell>
+<max_cell align="left" width="50%">NI Real-Time Phar Lap ETS 13.1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">System Start Time</max_cell>
+<max_cell align="left" width="50%">3/28/2019 9:44:53 AM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Comments</max_cell>
+<max_cell align="left" width="50%">Shruti</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Locale</max_cell>
+<max_cell align="left" width="50%">English</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Halt on IP failure</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>System Resources</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Total Physical Memory</max_cell>
+<max_cell align="left" width="50%">1.88 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Free Physical Memory</max_cell>
+<max_cell align="left" width="50%">1.76 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Largest Available Memory Block</max_cell>
+<max_cell align="left" width="50%">907 MB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Primary Disk Capacity</max_cell>
+<max_cell align="left" width="50%">466 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Primary Disk Free Space</max_cell>
+<max_cell align="left" width="50%">465 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">CPU Model</max_cell>
+<max_cell align="left" width="50%">Intel(R) Core(TM) i5-2510E CPU @ 2.50GHz</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_table border="false">
+<max_row>
+<max_cell colspan="2">
+<max_br/>
+</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" colspan="2">Configuration</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">MAC Address:</max_cell>
+<max_cell align="left">00:80:2f:14:7e:10</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">DHCP:</max_cell>
+<max_cell align="left">Enabled</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">IP Address:</max_cell>
+<max_cell align="left">10.164.68.236</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Subnet Mask:</max_cell>
+<max_cell align="left">255.255.254.0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Gateway:</max_cell>
+<max_cell align="left">10.164.68.1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">DNS Server:</max_cell>
+<max_cell align="left">172.24.31.70</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Password-protect Restarts:</max_cell>
+<max_cell align="left">Disabled</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Halt on IP Failure:</max_cell>
+<max_cell align="left">Disabled</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="ASRL1::INSTR &quot;COM1&quot;" anchor="ASRL1::INSTR &quot;COM1&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">COM1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Port Binding</max_cell>
+<max_cell align="left" width="50%">COM1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Port Description</max_cell>
+<max_cell align="left" width="50%">Built-In RS-232</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">VISA Resource Name</max_cell>
+<max_cell align="left" width="50%">ASRL1::INSTR</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>Port Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Baud rate</max_cell>
+<max_cell align="left" width="50%">9600</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Data bits</max_cell>
+<max_cell align="left" width="50%">8</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Parity</max_cell>
+<max_cell align="left" width="50%">None</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Stop bits</max_cell>
+<max_cell align="left" width="50%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Flow control</max_cell>
+<max_cell align="left" width="50%">None</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_br/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Property</max_cell>
+<max_cell bold="true" width="50%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Resource Name</max_cell>
+<max_cell width="50%">ASRL1::INSTR</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Device Type</max_cell>
+<max_cell width="50%">Serial Port</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">VISA Alias on 10.164.68.236</max_cell>
+<max_cell width="50%">COM1</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Device Enabled</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="ptp" anchor="ptp">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%"/>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Hostname</max_cell>
+<max_cell align="left" width="50%"/>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="NI PXIe-1071 &quot;PXIChassis1&quot;" anchor="NI PXIe-1071 &quot;PXIChassis1&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">PXIChassis1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI PXIe-1071</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Serial Number</max_cell>
+<max_cell align="left" width="50%">182016F</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Orderable Part Number</max_cell>
+<max_cell align="left" width="50%">781368-01</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Firmware Version</max_cell>
+<max_cell align="left" width="50%">1.0.0f0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Hardware Revision</max_cell>
+<max_cell align="left" width="50%">B</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">PXI Clock 10 Source</max_cell>
+<max_cell align="left" width="50%">Internal</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">VISA Resource Name</max_cell>
+<max_cell align="left" width="50%">PXI0::1::BACKPLANE</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_br/>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Property</max_cell>
+<max_cell bold="true" width="50%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Resource Name</max_cell>
+<max_cell width="50%">PXI0::1::BACKPLANE</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Device Type</max_cell>
+<max_cell width="50%">PXI BACKPLANE Resource</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">VISA Alias on 10.164.68.236</max_cell>
+<max_cell width="50%"/>
+</max_row>
+<max_row>
+<max_cell width="50%">Device Enabled</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="1: Built-in GPIB" anchor="1: Built-in GPIB">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%"/>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">Built-in GPIB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">PCI Bus</max_cell>
+<max_cell align="left" width="50%">16</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">PCI Device</max_cell>
+<max_cell align="left" width="50%">0</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="1: NI PXIe-8115 &quot;PXI1Slot1&quot;" anchor="1: NI PXIe-8115 &quot;PXI1Slot1&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">PXI1Slot1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI PXIe-8115</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">1</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="Software" anchor="Software">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>Variable Legacy Protocol Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Allows auto discovery of this target by variable browsers such as Distributed System Manager released prior to LabVIEW 2012, and allows this target to access network-published variables hosted by LabVIEW 8.6 or earlier.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Remote Panel Server for LabVIEW RT</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Allows accessing VIs as remote panels. This version of the Remote Front Panel Server requires LabVIEW Real-Time 2010.  This component does not automatically downgrade.  Refer to the RT 2010 Known Issues for a workaround.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-RIO IO Scan</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>NI-RIO IO Scan provides NI Scan Engine support for C Series I/O.</max_cell>
+</max_row>
+<max_row>
+<max_cell>EPICS Client I/O Server</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>EPICS Client I/O Server provides files necessary to communicate with EPICS (Experimental Physics and Industry Control System) servers.</max_cell>
+</max_row>
+<max_row>
+<max_cell>WebDAV Client with SSL Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>This is used by the LabVIEW WebDAV Client palette and includes support for secure connections.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Video Display Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Video Display Support on certain LabVIEW Real-Time targets.</max_cell>
+</max_row>
+<max_row>
+<max_cell>SMTP Client with SSL Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>This is used by the LabVIEW SMTP Client palette and includes support for secure connections.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-Watchdog</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI-Watchdog provides a driver for the watchdog timer on the real-time target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI Vision RT</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI Vision provides support for image processing and machine vision functions.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Network Streams</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>Network Streams for LabVIEW Real-Time provides the ability to communicate through network streams from VIs running on the target.  Network streams facilitate lossless communication between the target and another computing device on the network.</max_cell>
+</max_row>
+<max_row>
+<max_cell>System State Publisher</max_cell>
+<max_cell>7.0.0</max_cell>
+<max_cell>The System State Publisher publishes the CPU and memory usage of the real-time target to the NI Distributed System Manager.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Modbus I/O Server</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Modbus I/O Server adds Modbus support to the Network Variable Engine.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-Industrial Communications for EtherNet/IP</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI-Industrial Communications for EtherNet/IP</max_cell>
+</max_row>
+<max_row>
+<max_cell>WebDAV Server</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>A module for the system web server that enables it to act as a WebDAV server. This allows remote access to the target's file system via a standard, IT friendly, secure protocol.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-IMAQdx</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI-IMAQdx is driver software for ISC-178x smart cameras, as well as IEEE 1394, GigE Vision, USB3 Vision, and IP cameras.</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW 2019 Digital Filter Design Toolkit</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Files necessary to use LabVIEW Digital Filter Design Toolkit.</max_cell>
+</max_row>
+<max_row>
+<max_cell>DataSocket for LabVIEW Real-Time</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>DataSocket for LabVIEW Real-Time provides the ability to use DataSocket communication from VIs running on the target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>I/O Variable Remote Configuration Web Service</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>The I/O Variable Remote Configuration Web Service allows you to configure I/O variables hosted on the RT target from a remote computer. Warning: Installing this component could increase your target's exposure to web-based attacks. Visit ni.com/info and enter the Info Code RTSecurity for details on protecting your system.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI Application Web Server</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Allows LabVIEW VIs to be executed as Web services.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Broadcom 57xx Gigabit Ethernet Driver</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Broadcom 57xx Gigabit Ethernet Interface Driver</max_cell>
+</max_row>
+<max_row>
+<max_cell>Intel 8255x 10/100Mbps Ethernet Driver</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Intel 8255x 10/100Mbps Ethernet Interface Driver</max_cell>
+</max_row>
+<max_row>
+<max_cell>USB Support</max_cell>
+<max_cell>1.6</max_cell>
+<max_cell>USB Support enables support for accessing USB thumb drives. If the USB controller shares an interrupt line with other devices in the system, installing this component may affect the performance of those devices.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-TimeSync Time Reference for IEEE 1588-2008</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI-TimeSync Time Reference for IEEE 1588-2008 synchronizes your system using the IEEE 1588-2008 Precision Time Protocol (PTP).</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI 1588-2008 Network Management</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI 1588-2008 Network Management enables you to query and configure the properties of IEEE 1588-2008 PTP clocks on local and remote networks using the NI System Configuration API.</max_cell>
+</max_row>
+<max_row>
+<max_cell>HTTP Client with SSL Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>This is used by the LabVIEW HTTP Client palette and includes support for HTTPS connections.</max_cell>
+</max_row>
+<max_row>
+<max_cell>EPICS Server I/O Server</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>EPICS Server I/O Server provides files necessary to publish shared variables to the EPICS (Experimental Physics and Industry Control System) network.</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW Control Design and Simulation</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>Files necessary to use LabVIEW Control Design and Simulation Module.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-Serial RT</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI-Serial support for LabVIEW Real-Time</max_cell>
+</max_row>
+<max_row>
+<max_cell>Network Variable Engine</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Network Variable Engine allows the LabVIEW Real-Time target to host I/O servers and network-published variables.  This component requires that the target have at least 32MB total memory.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Variable Client Support for LabVIEW RT</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Variable Client Support for LabVIEW RT allows the LabVIEW Real-Time target to access network-published variables.</max_cell>
+</max_row>
+<max_row>
+<max_cell>WebDAV Client</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>This is used by the LabVIEW WebDAV Client palette and does not include support for secure connections.</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW 2019 Advanced Signal Processing Toolkit</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Contains files necessary to use LabVIEW Advanced Signal Processing Toolkit.</max_cell>
+</max_row>
+<max_row>
+<max_cell>SMTP Client</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>This is used by the LabVIEW SMTP Client palette and does not include support for secure connections.</max_cell>
+</max_row>
+<max_row>
+<max_cell>SSL Support for LabVIEW RT</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>SSL support.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>VISA provides an API for instrument control. This component includes the NI-VISA core and the NI-VISA Serial Passport for Serial resources. This includes both RS-232 and RS-485.</max_cell>
+</max_row>
+<max_row>
+<max_cell>HTTP Client</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>This is used by the LabVIEW HTTP Client palette and does not include support for HTTPS connections.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI Scan Engine</max_cell>
+<max_cell>8.0</max_cell>
+<max_cell>The NI Scan Engine enables access to I/O channels by storing data in a global memory map and updating all values at a single rate. By default, the NI Scan Engine runs in a thread above time-critical priority on RT targets.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-RIO</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>The NI-RIO driver enables LabVIEW Real-Time and remote hosts to communicate with an FPGA target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI PXI Platform Services</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI PXI Platform Services provides driver and configuration support for NI PXI and PXIe Controllers and Chassis.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI Web-based Configuration and Monitoring</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Enables remote configuration and monitoring of the system from a standard Web browser.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI System Configuration Remote Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI System Configuration Remote Support provides web services for network discovery and configuration.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Run-Time Engine for Web Services</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Allows LabVIEW VIs to be executed as Web Services.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI System Configuration</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI System Configuration API provides libraries and other files necessary to support applications that discover and configure systems and devices.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NVIDIA Ethernet Driver</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NVIDIA Ethernet Interface Driver</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW Real-Time</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>LabVIEW Real-Time provides the core Real-Time Engine. You must have this component installed to be able to use any other software component.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Language Support for LabVIEW RT</max_cell>
+<max_cell>1.0.0.7</max_cell>
+<max_cell>This component adds support for non-ASCII languages on the real-time target. This component is required when using localized strings in your real-time application.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Intel 8254x Ethernet Driver</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Intel 8254x Gigabit Ethernet Interface Driver</max_cell>
+</max_row>
+<max_row>
+<max_cell>Intel 1000e Ethernet Driver</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Intel 1000e Gigabit Ethernet Interface Driver</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="LabVIEW Real-Time 19.0.0" anchor="LabVIEW Real-Time 19.0.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI RT Extensions for SMP (MultiCore Support)</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The NI Real-Time Extensions for Symmetric Multiprocessing (SMP) enable multi-core systems to use all available cores for running applications.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Language Support for Japanese</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The Language Support for Japanese enables support for the Japanese language within LabVIEW.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Language Support for Simplified Chinese</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The Language Support for Simplified Chinese enables support for the Simplified Chinese language within LabVIEW.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Microsoft Visual Studio 2008 Runtime Support</max_cell>
+<max_cell>1.0</max_cell>
+<max_cell>Allows DLLs built with Visual Studio 2008 to be run on a target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Microsoft Visual Studio 2010 Runtime Support</max_cell>
+<max_cell>1.1</max_cell>
+<max_cell>Allows DLLs built with Visual Studio 2010 to be run on a target.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="NI Web-based Configuration and Monitoring 19.0.0" anchor="NI Web-based Configuration and Monitoring 19.0.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>Hardware Configuration Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Hardware Configuration Web Support installs the NI Web-based Configuration and Monitoring System Configuration page. Use this page to view and set system and startup settings for your target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Network Configuration Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Network Configuration Web Support installs the NI Web-based Configuration and Monitoring Network Configuration page. Use this page to view and set the network settings for your target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Network Browser Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Network Browser Web Support installs the NI Web-based Configuration and Monitoring Network Browser page. Use this page to view systems on the target's network.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Software Management Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Software Management Web Support installs the NI Web-based Configuration and Monitoring Software Management page. Use this page to view information about the software installed on your target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Time Configuration Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Time Configuration Web Support installs the NI Web-based Configuration and Monitoring Time Configuration page. Use this page to configure the date and time settings for your target.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="NI-IMAQdx 19.0.0" anchor="NI-IMAQdx 19.0.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>GigE Vision Camera Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>GigE Vision Camera Support installs support for using the NI-IMAQdx driver to access GigE Vision cameras.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="NI-RIO 19.0" anchor="NI-RIO 19.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>CompactRIO Support</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>CompactRIO Support provides NI-RIO driver support for CompactRIO controllers and chassis.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+<max_heading1>NI-RIO Settings</max_heading1>
+<max_heading2>RIO Server</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="25%">Port</max_cell>
+<max_cell/>
+</max_row>
+</max_table>
+<max_heading2>Remote Device Access</max_heading2>
+The remote device access list on this system is blank, which means that no remote systems have access to RIO devices on this system.
+<max_br/>
+</max_provider_report>
+<max_provider_report name="NI-VISA 19.0.0" anchor="NI-VISA 19.0.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA GPIB Passport</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The NI-VISA GPIB Passport provides support for VISA applications and drivers that use GPIB resources.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA ENET-ASRL Passport</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The NI-VISA ENET-Serial Passport provides support for VISA applications and drivers that use ENET-Serial resources. This includes both RS-232 and RS-485.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA ENET Passport</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The NI-VISA Ethernet Passport provides support for VISA applications and drivers that use TCP/IP resources. This includes VXI-11 and HiSLIP devices as well as raw sockets.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA PXI Passport</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The NI-VISA PXI Passport provides support for VISA applications and drivers that use PXI and PXI Express resources. This also includes PCI and PCIe resources.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA USB Passport</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The NI-VISA USB Passport provides support for VISA applications and drivers that use USB resources. This includes USB-TMC devices as well as raw data transfer.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA Remote Passport</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The NI-VISA Remote Passport provides support for VISA applications and drivers that use remote VISA resources connected to another computer on the network.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA Server</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The NI-VISA Remote Server shares VISA resources over the network. This enables other clients with the NI-VISA Remote Passport installed to access your resources.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+<max_br/>
+<max_heading1>VISA Options</max_heading1>
+<max_heading2>General Settings</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Property</max_cell>
+<max_cell bold="true" width="50%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Minimum Async Transfer</max_cell>
+<max_cell width="50%">512 Bytes</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">GPIB Interface: Use ibln to test device state</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">GPIB-VXI Interface: Auto find every GPIB-VXI</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">GPIB-VXI Interface: Retry after failure</max_cell>
+<max_cell width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">PXI/PCI Interfaces</max_cell>
+<max_cell width="50%">Show only devices registered with VISA</max_cell>
+</max_row>
+</max_table>
+<max_heading2>List of Aliases</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Resource Name</max_cell>
+<max_cell bold="true" width="50%">Alias</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">ASRL1::INSTR</max_cell>
+<max_cell width="50%">COM1</max_cell>
+</max_row>
+</max_table>
+<max_heading2>Passports</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Name (Description)</max_cell>
+<max_cell bold="true" width="50%">Enabled</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViRio.dll (NI-VISA Passport plug-in for NI-RIO)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViEnet.dll (NI-VISA Passport for TCPIP and VXI-11)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViPxi.dll (NI-VISA Passport for PXI/PCI)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiVi488.dll (NI-VISA Passport for GPIB)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiEnAsrl.dll (NI-VISA Passport for Enet-Serial)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViUsbj.dll (NI-VISA Passport for USB)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViRpc.dll (NI-VISA Passport for remote NI-VISA)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViAsrl.dll (NI-VISA Passport for Serial)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+</max_table>
+<max_heading2>VISA Server</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Property</max_cell>
+<max_cell bold="true" width="50%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Port</max_cell>
+<max_cell width="50%">3537</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Run on startup</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+</max_table>
+<max_heading2>Security</max_heading2>
+The remote access list on this system is blank. This means that no remote system has access to this system.
+</max_provider_report>
+<max_provider_report name="Variable Legacy Protocol Support 19.0.0" anchor="Variable Legacy Protocol Support 19.0.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>Variable Legacy Server Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Allows variables hosted on this target to be accessed by versions of LabVIEW prior to 2009 and clients running LabVIEW for Mac OS X or Linux</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+</max_provider_report>
+</max_report>

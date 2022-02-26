@@ -1,0 +1,3 @@
+Test,VI,Total Test Deploy Time (ms),Total Test Execution Time (ms)
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Test_NetworkStream_Sweep_BufferSize.vi,3138,56562
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Pre_NetworkStream_Sweep_BufferSize.vi,2212,49117

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<max_report title="MAX Configuration Report" timeStamp="5/24/2019 1:24:30 PM" backText="Back to top" stylesheet="embedded">
+<max_heading2>MAX Summary</max_heading2>
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#RT-PXIe-8135" openNewPage="false">RT-PXIe-8135</max_link>
+<max_list format="nobullet">
+<max_listitem>
+
+Devices and Interfaces
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+<max_br/>
+<max_br/>
+
+<max_provider_report name="RT-PXIe-8135" anchor="RT-PXIe-8135">
+<max_table border="false">
+<max_row>
+<max_cell colspan="2">
+<max_br/>
+</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" colspan="2">Configuration</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">MAC Address:</max_cell>
+<max_cell align="left">00:80:2f:14:a7:1f</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">DHCP:</max_cell>
+<max_cell align="left">Enabled</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">IP Address:</max_cell>
+<max_cell align="left">10.164.68.235</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Subnet Mask:</max_cell>
+<max_cell align="left">255.255.254.0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Gateway:</max_cell>
+<max_cell align="left">10.164.68.1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">DNS Server:</max_cell>
+<max_cell align="left">172.24.31.70</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Password-protect Restarts:</max_cell>
+<max_cell align="left">Disabled</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Halt on IP Failure:</max_cell>
+<max_cell align="left">Disabled</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+</max_report>

@@ -1,0 +1,1 @@
+"C:\PSTools\PsExec.exe" -accepteula -i 1 %1 -u "lvadmin" -p "labview===" "%2"

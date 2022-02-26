@@ -1,0 +1,19 @@
+rtatsvm-1:/vmfs/volumes/4f4fc760-e56c6c04-9603-d067e5fc28e5/rtatsvm-1/rtatsvm-1.vmx:win 7 SP1:32
+rtatsvm-2:/vmfs/volumes/4f4fc760-e56c6c04-9603-d067e5fc28e5/rtatsvm-2/rtatsvm-2.vmx:WIn 8.1:32
+rtatsvm-3:/vmfs/volumes/591add76-7e380fed-0cb5-549f3515f8b6/rtatsvm-3/rtatsvm-3.vmxiqc.vmx:WIn 8.1:64
+RTATSVM-4:/vmfs/volumes/55351f5e-18a66bcd-5ccc-549f3515f8b6/RTATSVM-4_/RTATSVM-4_.vmx:win 7 SP1:64
+rtatsvm-5:/vmfs/volumes/4f4fc760-e56c6c04-9603-d067e5fc28e5/rtatsvm-5/rtatsvm-5.vmx:win 7 SP1:32
+RTATSVm-6:/vmfs/volumes/55351f6f-9c1578d6-4b17-549f3515f8b6/RTATSMV_6/RTATSMV_6.vmx:win 7 SP1:64
+rtatsvm-7:/vmfs/volumes/4f4fcdda-f902880a-b7bf-d067e5fc2af8/rtatsvm-7_1/rtatsvm-7.vmx:Win 10:32
+rtatsvm-8:/vmfs/volumes/4f4fcdda-f902880a-b7bf-d067e5fc2af8/rtatsvm-8_1/rtatsvm-8.vmx:Win 10:64
+rtatsvm-9:/vmfs/volumes/4f4fcdda-f902880a-b7bf-d067e5fc2af8/rtatsvm-9_1/rtatsvm-9.vmx:Win 10:32
+RTATSVM-10:/vmfs/volumes/55351f5e-18a66bcd-5ccc-549f3515f8b6/RTATSVM-10/RTATSVM-10.vmx:Win 10:64
+rtatsvm-11:/vmfs/volumes/4f4fc760-e56c6c04-9603-d067e5fc28e5/rtatsvm-11/rtatsvm-11.vmx:WIn 8.1:32
+rtatsvm-12:/vmfs/volumes/4f4fcdda-f902880a-b7bf-d067e5fc2af8/rtatsvm-12_1/rtatsvm-12.vmx:WIn 8.1:64
+rtvm-1:/vmfs/volumes/583c08ad-d4b9fc40-3683-c81f66f62e51/rtvm-1/rtvm-1.vmx:win 7 SP1:32
+rtvm-2:/vmfs/volumes/4f4fcdda-f902880a-b7bf-d067e5fc2af8/rtvm-2_2/rtvm-2.vmx:win 7 SP1:64
+rtvm-3:/vmfs/volumes/4f4fc760-e56c6c04-9603-d067e5fc28e5/rtvm-3/rtvm-3.vmx:Win 10:32
+rtvm-4:/vmfs/volumes/4f4fcdda-f902880a-b7bf-d067e5fc2af8/rtvm-4/rtvm-4.vmx:Win 10:64
+rtvm-5:/vmfs/volumes/4f4fc760-e56c6c04-9603-d067e5fc28e5/rtvm-5/rtvm-5.vmx:WIn 8.1:32
+rtvm-6:/vmfs/volumes/591add76-7e380fed-0cb5-549f3515f8b6/rtvm-6/rtvm-6.vmx:WIn 8.1:64
+rtvm-7:/vmfs/volumes/4f4fc760-e56c6c04-9603-d067e5fc28e5/rtvm-7/rtvm-7.vmx:win 7 SP1:32

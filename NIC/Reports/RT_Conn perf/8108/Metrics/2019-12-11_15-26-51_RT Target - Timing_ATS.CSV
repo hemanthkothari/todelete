@@ -1,0 +1,5 @@
+Test,VI,Connect Time (ms),Load Time (ms),Cross-Compiled VIs (VIs),Deploy&Start Time (ms),Deploy Time (ms),Execution Time (ms)
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Get_Target_Memory_Info.vi,1863,24,7.000000,712,706,8
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Test_NetworkStream_Sweep_BufferSize.vi,2172,41,23.000000,1845,1823,30375
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Get_Target_Memory_Info.vi,2139,10,7.000000,718,712,6
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Pre_NetworkStream_Sweep_BufferSize.vi,2144,17,15.000000,1209,1201,

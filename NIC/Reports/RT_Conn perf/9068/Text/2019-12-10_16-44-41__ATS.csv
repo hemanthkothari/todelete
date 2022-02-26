@@ -1,0 +1,178 @@
+ Test-Suite Report
+12/10/2019 , 4:44 PM
+
+Test System Information
+
+Test Suite Parameters: 
+Test Folder Path:,C:\sync\penguin\2020\rtconn_test\trunk\tests_auto\performance\throughput
+Installed Distributions:,
+NI LabVIEW Run-Time Engine 2011 SP1 - Version: 11.1.0.0
+Path: \\in-ban-argo.natinst.com\NISoftwareReleased\Windows\Distributions\LabVIEW Add-ons\Run-Time Engine\2011\11.1.0\32-bit\standard\
+
+NI LabVIEW Run-Time Engine 2013 - Version: 13.0.0.0
+Path: \\in-ban-argo.natinst.com\NISoftwareReleased\Windows\Distributions\LabVIEW Add-ons\Run-Time Engine\2013\13.0.0\32-bit\standard\
+
+NI LabVIEW Run-Time Engine 8.5 - Version: 8.5.0.0
+Path: \\nibataserver\LV RT Utilities\RTE\8.5\
+
+NI LabVIEW 8.2.1 Runtime Engine - Version: 8.2.1.0
+Path: \\in-ban-argo.natinst.com\NISoftwareReleased\Windows\Distributions\LabVIEW Add-ons\Run-Time Engine\8.2\8.2.1\English\Daily\20070327_1819\
+
+NI LabVIEW Run-Time Engine 2009 - Version: 9.0.0.0
+Path: \\nibataserver\LV RT Utilities\RTE\9.0\
+
+
+
+Settings for Target (Alias):,Default
+Target IP:,169.254.41.11
+Target Host Name:,RT-cRIO-9068--6
+Target Model:,cRIO-9068
+Target Code:,76D6
+Target Serial Number:,1923EB3
+Target MAC:,30303A38303A32463A31353A44363A3838
+
+Settings for Target (Alias):,localhost
+Host Host Name:,rtatsperf.apac.corp.natinst.com
+Host IP:,169.254.104.17
+Host LV Version:,20.0b25
+Host OS:,Windows NT
+Host OS Version:,6.1
+LV EXE Date:,2019-12-08 07:20:28
+Host MAC:,68	05	CA	26	C5	60
+
+Test Name: ,NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,10,1,0.007649,438321856,0,5000,100,10,0.07886,438321856,0,5000,1000,100,3.324,438321856,0,5000,10000,1000,16.21,438321856,0,5000,100000,10000,28.41,438321856,0,5000,500000,50000,29.71,438321856,0,
+Test Configuration:,Local_Remote
+Test Result:,Passed
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,10,1,0.007671,435866384,0,5000,100,10,0.07552,435866384,0,5000,1000,100,4.787,435866384,0,5000,10000,1000,14.74,435866384,0,5000,100000,10000,18.83,435866384,0,5000,500000,50000,19.75,435866384,0,
+Test Configuration:,Remote_Local
+Test Result:,Passed
+Test Name: ,NetworkStream\Test_NetworkStream_Sweep_BufferSize_SMP.vi
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,10,1,0.01461,435485264,0,5000,100,10,0.1462,435485264,0,5000,1000,100,3.309,435485264,0,5000,10000,1000,14.84,435485264,0,5000,100000,10000,24.83,435485264,0,5000,500000,50000,26.01,435485264,0,
+Test Configuration:,Local_Remote
+Test Result:,Passed
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,10,1,0.00686,436083340,0,5000,100,10,0.06835,436083340,0,5000,1000,100,4.395,436083340,0,5000,10000,1000,16.7,436083340,0,5000,100000,10000,25.2,436083340,0,5000,500000,50000,19.75,436083340,0,
+Test Configuration:,Remote_Local
+Test Result:,Passed
+Test Name: ,NetworkStream\Test_NetworkStream_Sweep_NumElements.vi
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,100000,1,0.04104,431778160,0,5000,100000,10,0.3788,431778160,0,5000,100000,100,3.321,431778160,0,5000,100000,1000,16.57,431778160,0,5000,100000,10000,29.38,431778160,0,5000,100000,100000,20.83,431778160,0,
+Test Configuration:,Local_Remote
+Test Result:,Passed
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,100000,1,0.1874,434282820,0,5000,100000,10,1.532,434282820,0,5000,100000,100,5.766,434282820,0,5000,100000,1000,13.09,434282820,0,5000,100000,10000,24.41,434282820,0,5000,100000,100000,25.32,434282820,0,
+Test Configuration:,Remote_Local
+Test Result:,Passed
+Test Name: ,NetworkStream\Test_NetworkStream_Sweep_NumElements_SMP.vi
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,100000,1,0.04922,434716112,0,5000,100000,10,0.4692,434716112,0,5000,100000,100,3.431,434716112,0,5000,100000,1000,12.48,434716112,0,5000,100000,10000,24.82,434716112,0,5000,100000,100000,21.11,434716112,0,
+Test Configuration:,Local_Remote
+Test Result:,Passed
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,100000,1,0.403,434720428,0,5000,100000,10,2.3,434720428,0,5000,100000,100,4.668,434720428,0,5000,100000,1000,14.8,434720428,0,5000,100000,10000,25.12,434720428,0,5000,100000,100000,26.19,434720428,0,
+Test Configuration:,Remote_Local
+Test Result:,Passed
+Test Name: ,NetworkStream\Test_NetworkStream_Throughput.vi
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,1000,100,3.158,432608904,0,
+Test Configuration:,Local_Remote
+Test Result:,Passed
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,1000,100,4.6,432719496,0,
+Test Configuration:,Remote_Local
+Test Result:,Passed
+Test Name: ,NetworkStream\Test_NetworkStream_Throughput_SMP.vi
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,1000,100,2.861,432608904,0,
+Test Configuration:,Local_Remote
+Test Result:,Passed
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,1000,100,4.505,432490120,0,
+Test Configuration:,Remote_Local
+Test Result:,Passed
+Test Name: ,TCP\Test_TCP_Sweep_NumElements.vi
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,0,1,0.3025,432629384,0,5000,0,10,2.652,432629384,0,5000,0,100,13.34,432629384,0,5000,0,1000,18.17,432629384,0,5000,0,10000,26.89,432629384,0,5000,0,50000,31.77,432629384,0,
+Test Configuration:,Local_Remote
+Test Result:,Passed
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,0,1,0.5216,432248748,0,5000,0,10,3.083,432248748,0,5000,0,100,11.86,432248748,0,5000,0,1000,23.71,432248748,0,5000,0,10000,38.02,432248748,0,5000,0,50000,44.82,432248748,0,
+Test Configuration:,Remote_Local
+Test Result:,Passed
+Test Name: ,TCP\Test_TCP_Sweep_NumElements_SMP.vi
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,0,1,0.3065,431994796,0,5000,0,10,2.631,431994796,0,5000,0,100,13.04,431994796,0,5000,0,1000,25.58,431994796,0,5000,0,10000,35.32,431994796,0,5000,0,50000,35.39,431994796,0,
+Test Configuration:,Local_Remote
+Test Result:,Passed
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,0,1,0.5015,431634348,0,5000,0,10,4.012,431634348,0,5000,0,100,8.944,431634348,0,5000,0,1000,38.12,431634348,0,5000,0,10000,35.42,431634348,0,5000,0,50000,36.13,431634348,0,
+Test Configuration:,Remote_Local
+Test Result:,Passed
+Test Name: ,TCP\Test_TCP_Throughput.vi
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,0,100,12.65,431949740,0,
+Test Configuration:,Local_Remote
+Test Result:,Passed
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,0,100,12.06,431646636,0,
+Test Configuration:,Remote_Local
+Test Result:,Passed
+Test Name: ,TCP\Test_TCP_Throughput_SMP.vi
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,0,100,13.32,431794092,0,
+Test Configuration:,Local_Remote
+Test Result:,Passed
+Reported by: ,Default Performance Report Generator.vi
+
+Iteration ,RunTime (ms),Buffer Size,Num Elements,Throughput (MB/s),Target Memory (bytes),Datatype
+0,5000,0,100,11.81,431515564,0,
+Test Configuration:,Remote_Local
+Test Result:,Passed
+<results>Passed,10
+Failed,0
+Error,0
+Avoided,0
+Disabled,0
+</results>

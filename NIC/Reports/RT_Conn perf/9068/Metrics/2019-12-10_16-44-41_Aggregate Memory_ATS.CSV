@@ -1,0 +1,21 @@
+Test,VI,Total Test Memory Usage (KB)
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Test_NetworkStream_Sweep_BufferSize.vi,4184.000
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Get_Target_Memory_Info.vi,-76.000
+NetworkStream\Test_NetworkStream_Sweep_BufferSize_SMP.vi,Test_NetworkStream_Sweep_BufferSize_SMP.vi,-368.000
+NetworkStream\Test_NetworkStream_Sweep_BufferSize_SMP.vi,Get_Target_Memory_Info.vi,172.000
+NetworkStream\Test_NetworkStream_Sweep_NumElements.vi,Test_NetworkStream_Sweep_NumElements.vi,48.000
+NetworkStream\Test_NetworkStream_Sweep_NumElements.vi,Get_Target_Memory_Info.vi,-24.000
+NetworkStream\Test_NetworkStream_Sweep_NumElements_SMP.vi,Test_NetworkStream_Sweep_NumElements_SMP.vi,300.000
+NetworkStream\Test_NetworkStream_Sweep_NumElements_SMP.vi,Get_Target_Memory_Info.vi,136.000
+NetworkStream\Test_NetworkStream_Throughput.vi,Test_NetworkStream_Throughput.vi,-76.000
+NetworkStream\Test_NetworkStream_Throughput.vi,Get_Target_Memory_Info.vi,-140.000
+NetworkStream\Test_NetworkStream_Throughput_SMP.vi,Test_NetworkStream_Throughput_SMP.vi,128.000
+NetworkStream\Test_NetworkStream_Throughput_SMP.vi,Get_Target_Memory_Info.vi,8.000
+TCP\Test_TCP_Sweep_NumElements.vi,Test_TCP_Sweep_NumElements.vi,-108.000
+TCP\Test_TCP_Sweep_NumElements.vi,Get_Target_Memory_Info.vi,16.000
+TCP\Test_TCP_Sweep_NumElements_SMP.vi,Test_TCP_Sweep_NumElements_SMP.vi,176.000
+TCP\Test_TCP_Sweep_NumElements_SMP.vi,Get_Target_Memory_Info.vi,32.000
+TCP\Test_TCP_Throughput.vi,Test_TCP_Throughput.vi,372.000
+TCP\Test_TCP_Throughput.vi,Get_Target_Memory_Info.vi,116.000
+TCP\Test_TCP_Throughput_SMP.vi,Test_TCP_Throughput_SMP.vi,24.000
+TCP\Test_TCP_Throughput_SMP.vi,Get_Target_Memory_Info.vi,-56.000

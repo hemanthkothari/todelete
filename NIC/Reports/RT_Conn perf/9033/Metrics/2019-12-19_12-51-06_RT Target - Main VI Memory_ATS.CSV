@@ -1,0 +1,11 @@
+Test,VI,Main VI Download Usage (KB),Main VI Execution Usage (KB),Main VI Total Usage (KB)
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi,Test_NetworkStream_Sweep_BufferSize.vi,492.000,1484.000,1976.000
+NetworkStream\Test_NetworkStream_Sweep_BufferSize_SMP.vi,Test_NetworkStream_Sweep_BufferSize_SMP.vi,212.000,160.000,372.000
+NetworkStream\Test_NetworkStream_Sweep_NumElements.vi,Test_NetworkStream_Sweep_NumElements.vi,-228.000,1432.000,1204.000
+NetworkStream\Test_NetworkStream_Sweep_NumElements_SMP.vi,Test_NetworkStream_Sweep_NumElements_SMP.vi,-256.000,540.000,284.000
+NetworkStream\Test_NetworkStream_Throughput.vi,Test_NetworkStream_Throughput.vi,-180.000,-28.000,-208.000
+NetworkStream\Test_NetworkStream_Throughput_SMP.vi,Test_NetworkStream_Throughput_SMP.vi,244.000,68.000,312.000
+TCP\Test_TCP_Sweep_NumElements.vi,Test_TCP_Sweep_NumElements.vi,-584.000,1788.000,1204.000
+TCP\Test_TCP_Sweep_NumElements_SMP.vi,Test_TCP_Sweep_NumElements_SMP.vi,-68.000,3844.000,3776.000
+TCP\Test_TCP_Throughput.vi,Test_TCP_Throughput.vi,168.000,-508.000,-340.000
+TCP\Test_TCP_Throughput_SMP.vi,Test_TCP_Throughput_SMP.vi,-28.000,-136.000,-164.000

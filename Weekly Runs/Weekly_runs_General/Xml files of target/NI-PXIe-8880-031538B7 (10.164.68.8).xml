@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<max_report title="MAX Configuration Report" timeStamp="5/24/2019 1:11:55 PM" backText="Back to top" stylesheet="embedded">
+<max_heading2>MAX Summary</max_heading2>
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#NI-PXIe-8880-031538B7" openNewPage="false">NI-PXIe-8880-031538B7</max_link>
+<max_list format="nobullet">
+<max_listitem>
+
+Devices and Interfaces
+<max_list format="nobullet">
+<max_listitem>
+Network Devices
+</max_listitem>
+<max_listitem>
+<max_link name="#NI PXIe-1071 &quot;PXIChassis1&quot;" openNewPage="false">NI PXIe-1071 "PXIChassis1"</max_link>
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#1: NI PCI-GPIB &quot;GPIB0&quot;" openNewPage="false">1: NI PCI-GPIB "GPIB0"</max_link>
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+
+Software
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+<max_br/>
+<max_br/>
+
+<max_provider_report name="NI-PXIe-8880-031538B7" anchor="NI-PXIe-8880-031538B7">
+<max_table border="false">
+<max_row>
+<max_cell colspan="2">
+<max_br/>
+</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" colspan="2">Configuration</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">MAC Address:</max_cell>
+<max_cell align="left">00:80:2F:19:1B:9D</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">DHCP:</max_cell>
+<max_cell align="left">Enabled</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">IP Address:</max_cell>
+<max_cell align="left">10.164.68.8</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Subnet Mask:</max_cell>
+<max_cell align="left">255.255.254.0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Gateway:</max_cell>
+<max_cell align="left">10.164.68.1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">DNS Server:</max_cell>
+<max_cell align="left">172.24.31.70</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="NI PXIe-1071 &quot;PXIChassis1&quot;" anchor="NI PXIe-1071 &quot;PXIChassis1&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">PXIChassis1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Number</max_cell>
+<max_cell align="left" width="50%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI PXIe-1071</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Serial Number</max_cell>
+<max_cell align="left" width="50%">1820176</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Orderable Part Number</max_cell>
+<max_cell align="left" width="50%">781368-01</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Firmware Version</max_cell>
+<max_cell align="left" width="50%">1.0.0f0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Hardware Revision</max_cell>
+<max_cell align="left" width="50%">B</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">PXI Clock 10 Source</max_cell>
+<max_cell align="left" width="50%">Internal</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">VISA Resource Name</max_cell>
+<max_cell align="left" width="50%">PXI0::1::BACKPLANE</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="1: NI PCI-GPIB &quot;GPIB0&quot;" anchor="1: NI PCI-GPIB &quot;GPIB0&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">GPIB Interface ID</max_cell>
+<max_cell align="left" width="50%">GPIB0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI PCI-GPIB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Serial Number</max_cell>
+<max_cell align="left" width="50%">0315020E</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Slot Number</max_cell>
+<max_cell align="left" width="50%">1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">PCI Bus</max_cell>
+<max_cell align="left" width="50%">4</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">PCI Device</max_cell>
+<max_cell align="left" width="50%">0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Status</max_cell>
+<max_cell align="left" width="50%">Present</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">VISA Resource Name</max_cell>
+<max_cell align="left" width="50%">PXI4::0::INSTR</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>GPIB Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Primary Address</max_cell>
+<max_cell align="left" width="50%">0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Secondary Address</max_cell>
+<max_cell align="left" width="50%">None</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">I/O Timeout</max_cell>
+<max_cell align="left" width="50%">13 (10 sec)</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">System Controller</max_cell>
+<max_cell align="left" width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Enable Autopolling</max_cell>
+<max_cell align="left" width="50%">True</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>Termination Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Send EOI at End of Write</max_cell>
+<max_cell align="left" width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Set EOI with EOS on Write</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Terminate Read on EOS</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Use 8-bit EOS Comparison</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">EOS Byte</max_cell>
+<max_cell align="left" width="50%">0</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>Advanced Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">HS488 Cable Length</max_cell>
+<max_cell align="left" width="50%">0 (Disabled)</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Parallel Poll Duration</max_cell>
+<max_cell align="left" width="50%">0 (2 µsec)</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Bus Timing</max_cell>
+<max_cell align="left" width="50%">2 (500 nsec)</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Assert REN when SC</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+</max_provider_report>
+</max_report>

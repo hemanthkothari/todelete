@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<max_report title="MAX Configuration Report" timeStamp="5/24/2019 1:21:14 PM" backText="Back to top" stylesheet="embedded">
+<max_heading2>MAX Summary</max_heading2>
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#RTPERF-cRIO-9024" openNewPage="false">RTPERF-cRIO-9024</max_link>
+<max_list format="nobullet">
+<max_listitem>
+
+Devices and Interfaces
+<max_list format="nobullet">
+<max_listitem>
+<max_link name="#NI cRIO-9116 &quot;RIO0&quot;" openNewPage="false">NI cRIO-9116 "RIO0"</max_link>
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+
+<max_link name="#Software" openNewPage="false">Software</max_link>
+<max_list format="nobullet">
+<max_listitem>
+HTTP Client 19.0.0
+</max_listitem>
+<max_listitem>
+LabVIEW Real-Time 19.0.0
+</max_listitem>
+<max_listitem>
+Language Support for LabVIEW RT 1.0.0.7
+</max_listitem>
+<max_listitem>
+Network Streams 19.0
+</max_listitem>
+<max_listitem>
+NI System Configuration 19.0.0
+</max_listitem>
+<max_listitem>
+NI System Configuration Remote Support 19.0.0
+</max_listitem>
+<max_listitem>
+<max_link name="#NI Web-based Configuration and Monitoring 19.0.0" openNewPage="false">NI Web-based Configuration and Monitoring 19.0.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+Hardware Configuration Web Support 19.0.0
+</max_listitem>
+<max_listitem>
+Network Configuration Web Support 19.0.0
+</max_listitem>
+<max_listitem>
+Software Management Web Support 19.0.0
+</max_listitem>
+<max_listitem>
+Time Configuration Web Support 19.0.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+<max_link name="#NI-RIO 19.0" openNewPage="false">NI-RIO 19.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+CompactRIO Support 19.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+<max_link name="#NI-VISA 19.0.0" openNewPage="false">NI-VISA 19.0.0</max_link>
+<max_list format="nobullet">
+<max_listitem>
+NI-VISA Server 19.0.0
+</max_listitem>
+</max_list>
+</max_listitem>
+<max_listitem>
+Remote Panel Server for LabVIEW RT 19.0.0
+</max_listitem>
+<max_listitem>
+Run-Time Engine for Web Services 19.0.0
+</max_listitem>
+<max_listitem>
+Variable Legacy Protocol Support 19.0.0
+</max_listitem>
+<max_listitem>
+WebDAV Server 19.0.0
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+</max_listitem>
+</max_list>
+<max_br/>
+<max_br/>
+
+<max_provider_report name="RTPERF-cRIO-9024" anchor="RTPERF-cRIO-9024">
+<max_paragraph>
+<max_heading1>System Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Hostname</max_cell>
+<max_cell align="left" width="50%">RTPERF-cRIO-9024</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">DNS Name</max_cell>
+<max_cell align="left" width="50%">RTPERF-cRIO-9024.ni.corp.natinst.com</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">cRIO-9024</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Serial Number</max_cell>
+<max_cell align="left" width="50%">0156F09B</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Firmware Version</max_cell>
+<max_cell align="left" width="50%">2.1.2</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Operating System</max_cell>
+<max_cell align="left" width="50%">NI Real-Time VxWorks-PPC603 6.3</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">System Start Time</max_cell>
+<max_cell align="left" width="50%">5/21/2019 11:45:10 PM</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Comments</max_cell>
+<max_cell align="left" width="50%"/>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Locale</max_cell>
+<max_cell align="left" width="50%">English</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Halt on IP failure</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>Startup Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Force Safe Mode</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Enable Console Out</max_cell>
+<max_cell align="left" width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">IP Reset</max_cell>
+<max_cell align="left" width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Disable RT Startup App</max_cell>
+<max_cell align="left" width="50%">False</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_paragraph>
+<max_heading1>System Resources</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Total Physical Memory</max_cell>
+<max_cell align="left" width="50%">507 MB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Free Physical Memory</max_cell>
+<max_cell align="left" width="50%">466 MB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Largest Available Memory Block</max_cell>
+<max_cell align="left" width="50%">465 MB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Primary Disk Capacity</max_cell>
+<max_cell align="left" width="50%">3.81 GB</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Primary Disk Free Space</max_cell>
+<max_cell align="left" width="50%">3.77 GB</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_table border="false">
+<max_row>
+<max_cell colspan="2">
+<max_br/>
+</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" colspan="2">Configuration</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">MAC Address:</max_cell>
+<max_cell align="left">00:80:2f:12:93:4f</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">DHCP:</max_cell>
+<max_cell align="left">Enabled</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">IP Address:</max_cell>
+<max_cell align="left">10.164.68.94</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Subnet Mask:</max_cell>
+<max_cell align="left">255.255.254.0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Gateway:</max_cell>
+<max_cell align="left">10.164.68.1</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">DNS Server:</max_cell>
+<max_cell align="left">172.24.31.70</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Password-protect Restarts:</max_cell>
+<max_cell align="left">Disabled</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left">Halt on IP Failure:</max_cell>
+<max_cell align="left">Disabled</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="NI cRIO-9116 &quot;RIO0&quot;" anchor="NI cRIO-9116 &quot;RIO0&quot;">
+<max_paragraph>
+<max_heading1>Settings</max_heading1>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" width="50%">Name</max_cell>
+<max_cell align="left" width="50%">RIO0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Vendor</max_cell>
+<max_cell align="left" width="50%">National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Model</max_cell>
+<max_cell align="left" width="50%">NI cRIO-9116</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Serial Number</max_cell>
+<max_cell align="left" width="50%">0156FEEA</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">PCI Bus</max_cell>
+<max_cell align="left" width="50%">0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">PCI Device</max_cell>
+<max_cell align="left" width="50%">24</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">RIO Resource Name</max_cell>
+<max_cell align="left" width="50%">RIO0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" width="50%">Firmware Autoload Setting</max_cell>
+<max_cell align="left" width="50%">Do not autoload</max_cell>
+</max_row>
+</max_table>
+</max_paragraph>
+<max_br/>
+<max_br/>
+<max_heading2>Status</max_heading2>
+This device is working properly.
+<max_heading2>Identification</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="25%">Resource</max_cell>
+<max_cell>rio://RTPERF-cRIO-9024/RIO0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">RIO Alias on My System</max_cell>
+<max_cell/>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">RIO Alias on RTPERF-cRIO-9024:</max_cell>
+<max_cell/>
+</max_row>
+</max_table>
+<max_heading2>Product Information</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="25%">Vendor</max_cell>
+<max_cell>National Instruments</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">Product</max_cell>
+<max_cell>NI cRIO-9116</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">Serial Number</max_cell>
+<max_cell>0156FEEA</max_cell>
+</max_row>
+</max_table>
+<max_heading2>Location</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="25%">Chassis</max_cell>
+<max_cell>Unknown</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">Slot</max_cell>
+<max_cell>Unknown</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">Bus</max_cell>
+<max_cell>0</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">Device</max_cell>
+<max_cell>24</max_cell>
+</max_row>
+<max_row>
+<max_cell align="left" bold="true" width="25%">Function</max_cell>
+<max_cell>0</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+<max_provider_report name="Software" anchor="Software">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>Variable Legacy Protocol Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Allows auto discovery of this target by variable browsers such as Distributed System Manager released prior to LabVIEW 2012, and allows this target to access network-published variables hosted by LabVIEW 8.6 or earlier.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Remote Panel Server for LabVIEW RT</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Allows accessing VIs as remote panels. This version of the Remote Front Panel Server requires LabVIEW Real-Time 2010.  This component does not automatically downgrade.  Refer to the RT 2010 Known Issues for a workaround.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Network Streams</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>Network Streams for LabVIEW Real-Time provides the ability to communicate through network streams from VIs running on the target.  Network streams facilitate lossless communication between the target and another computing device on the network.</max_cell>
+</max_row>
+<max_row>
+<max_cell>WebDAV Server</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>A module for the system web server that enables it to act as a WebDAV server. This allows remote access to the target's file system via a standard, IT friendly, secure protocol.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-RIO</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>The NI-RIO driver enables LabVIEW Real-Time and remote hosts to communicate with an FPGA target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI Web-based Configuration and Monitoring</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Enables remote configuration and monitoring of the system from a standard Web browser.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI System Configuration Remote Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI System Configuration Remote Support provides web services for network discovery and configuration.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Run-Time Engine for Web Services</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Allows LabVIEW VIs to be executed as Web Services.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>VISA provides an API for instrument control. This component includes the NI-VISA core and the NI-VISA Serial Passport for Serial resources. This includes both RS-232 and RS-485.</max_cell>
+</max_row>
+<max_row>
+<max_cell>HTTP Client</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>This is used by the LabVIEW HTTP Client palette and does not include support for HTTPS connections.</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI System Configuration</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>NI System Configuration API provides libraries and other files necessary to support applications that discover and configure systems and devices.</max_cell>
+</max_row>
+<max_row>
+<max_cell>LabVIEW Real-Time</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>LabVIEW Real-Time provides the core Real-Time Engine. You must have this component installed to be able to use any other software component.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Language Support for LabVIEW RT</max_cell>
+<max_cell>1.0.0.7</max_cell>
+<max_cell>This component adds support for non-ASCII languages on the real-time target. This component is required when using localized strings in your real-time application.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="NI Web-based Configuration and Monitoring 19.0.0" anchor="NI Web-based Configuration and Monitoring 19.0.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>Hardware Configuration Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Hardware Configuration Web Support installs the NI Web-based Configuration and Monitoring System Configuration page. Use this page to view and set system and startup settings for your target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Network Configuration Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Network Configuration Web Support installs the NI Web-based Configuration and Monitoring Network Configuration page. Use this page to view and set the network settings for your target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Software Management Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Software Management Web Support installs the NI Web-based Configuration and Monitoring Software Management page. Use this page to view information about the software installed on your target.</max_cell>
+</max_row>
+<max_row>
+<max_cell>Time Configuration Web Support</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>Time Configuration Web Support installs the NI Web-based Configuration and Monitoring Time Configuration page. Use this page to configure the date and time settings for your target.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+</max_provider_report>
+<max_provider_report name="NI-RIO 19.0" anchor="NI-RIO 19.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>CompactRIO Support</max_cell>
+<max_cell>19.0</max_cell>
+<max_cell>CompactRIO Support provides NI-RIO driver support for CompactRIO controllers and chassis.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+<max_br/>
+<max_heading1>NI-RIO Settings</max_heading1>
+<max_heading2>RIO Server</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true" width="25%">Port</max_cell>
+<max_cell/>
+</max_row>
+</max_table>
+<max_heading2>Remote Device Access</max_heading2>
+The remote device access list on this system is blank, which means that no remote systems have access to RIO devices on this system.
+</max_provider_report>
+<max_provider_report name="NI-VISA 19.0.0" anchor="NI-VISA 19.0.0">
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell align="left" bold="true">Software Name</max_cell>
+<max_cell align="left" bold="true">Version</max_cell>
+<max_cell align="left" bold="true">Description</max_cell>
+</max_row>
+<max_row>
+<max_cell>NI-VISA Server</max_cell>
+<max_cell>19.0.0</max_cell>
+<max_cell>The NI-VISA Remote Server shares VISA resources over the network. This enables other clients with the NI-VISA Remote Passport installed to access your resources.</max_cell>
+</max_row>
+</max_table>
+<max_br/>
+<max_br/>
+<max_heading1>VISA Options</max_heading1>
+<max_heading2>Passports</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Name (Description)</max_cell>
+<max_cell bold="true" width="50%">Enabled</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViAsrl.out (NI-VISA Passport for Serial)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">NiViRio.out (NI-VISA Passport plug-in for NI-RIO)</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+</max_table>
+<max_heading2>VISA Server</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Property</max_cell>
+<max_cell bold="true" width="50%">Value</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Port</max_cell>
+<max_cell width="50%">3537</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">Run on startup</max_cell>
+<max_cell width="50%">True</max_cell>
+</max_row>
+</max_table>
+<max_heading2>Security</max_heading2>
+<max_table alternaterows="true" width="100%">
+<max_row>
+<max_cell bold="true" width="50%">Remote Address</max_cell>
+<max_cell bold="true" width="50%">Permission</max_cell>
+</max_row>
+<max_row>
+<max_cell width="50%">*</max_cell>
+<max_cell width="50%">Access only</max_cell>
+</max_row>
+</max_table>
+</max_provider_report>
+</max_report>

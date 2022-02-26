@@ -1,0 +1,3111 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>11.0.1</Version>
+<Array>
+<Name>Configurations</Name>
+<Dimsize>4</Dimsize>
+<Cluster>
+<Name>Test Iteration Info</Name>
+<NumElts>11</NumElts>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+<Array>
+<Name>Targets</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Target</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Target Type</Name>
+<Choice>Any</Choice>
+<Choice>Host</Choice>
+<Choice>Any ETS</Choice>
+<Choice>Any RTX</Choice>
+<Choice>Any VxWorks</Choice>
+<Choice>Any PXI</Choice>
+<Choice>Any FP</Choice>
+<Choice>Plug-in Board</Choice>
+<Choice>Any CVS</Choice>
+<Choice>Any cRIO</Choice>
+<Choice>E002 (817x)</Choice>
+<Choice>E001 (FP, cFP)</Choice>
+<Choice>7063 (8186,8187)</Choice>
+<Choice>705F (cRIO)</Choice>
+<Choice>7002 (814x)</Choice>
+<Choice>701d (PCI 7041)</Choice>
+<Choice>Any RT</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Target</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Target Type</Name>
+<Choice>Any</Choice>
+<Choice>Host</Choice>
+<Choice>Any ETS</Choice>
+<Choice>Any RTX</Choice>
+<Choice>Any VxWorks</Choice>
+<Choice>Any PXI</Choice>
+<Choice>Any FP</Choice>
+<Choice>Plug-in Board</Choice>
+<Choice>Any CVS</Choice>
+<Choice>Any cRIO</Choice>
+<Choice>E002 (817x)</Choice>
+<Choice>E001 (FP, cFP)</Choice>
+<Choice>7063 (8186,8187)</Choice>
+<Choice>705F (cRIO)</Choice>
+<Choice>7002 (814x)</Choice>
+<Choice>701d (PCI 7041)</Choice>
+<Choice>Any RT</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>Alias</Name>
+<Val>Host</Val>
+</String>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Dependencies</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Dyn. Ld. VIs</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val></Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>Files</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>File</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>Local File Path</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Remote Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Permanent</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Report</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Array>
+<Name>Post-Test VIs</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>..\..\..\..\CommonSubVIs\Tools\Target Configuration\SSH\pre_enableSSH.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>..\..\..\..\CommonSubVIs\Tools\Target Configuration\SSH\pre_rebootAfterSSHEnable.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>Host</Val>
+</String>
+</Cluster>
+</Array>
+<String>
+<Name>Configuration Name</Name>
+<Val>Minimal Software</Val>
+</String>
+<Boolean>
+<Name>Enable</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Test Adapter</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Array>
+<Name>SW Configuration</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>SW Configuration</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>Desired Software</Name>
+<Dimsize>6</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{899452D2-C085-430B-B76D-7FDB33BB324A}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>10.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>LabVIEW Real-Time</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{8946D3FB-8D14-4BFC-B401-2827F86364EB}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.3.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI System Configuration Remote Support</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{497A2398-F021-46d5-B02E-4DB25E9080D6}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>System State Publisher</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{8D1E7E99-60D5-44F0-A5AD-65908580B9C6}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.2</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>FTP Server</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{25D93C94-D8AB-4DEE-930D-7CC4B0EBB92B}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI Web Monitoring and Configuration</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{F8064116-D2A9-4463-9CD7-F9C464E360BB}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.5.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI System Configuration</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Array>
+<EW>
+<Name>Clean-up method</Name>
+<Choice>None</Choice>
+<Choice>Uninstall All</Choice>
+<Choice>Format</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Force installation</Name>
+<Choice>If versions do not match</Choice>
+<Choice>If not recently installed</Choice>
+<Choice>Always</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Additional Software</Name>
+<Choice>Visible Dependencies (Highest)</Choice>
+<Choice>Visible Dependency (Lowest)</Choice>
+<Choice>None (Strict)</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>INI Config Settings</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Target Config Changes</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Config Changes</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Config Changes</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Tokens</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Section</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Key</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Action</Name>
+<Choice>Add/Replace</Choice>
+<Choice>Add/Append</Choice>
+<Choice>Remove</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>List separator (;)</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Reboot?</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+<Path>
+<Name>Remote INI Path</Name>
+<Val></Val>
+</Path>
+</Cluster>
+</Array>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Case Generator</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Test Iteration Info</Name>
+<NumElts>11</NumElts>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+<Array>
+<Name>Targets</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Target</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Target Type</Name>
+<Choice>Any</Choice>
+<Choice>Host</Choice>
+<Choice>Any ETS</Choice>
+<Choice>Any RTX</Choice>
+<Choice>Any VxWorks</Choice>
+<Choice>Any PXI</Choice>
+<Choice>Any FP</Choice>
+<Choice>Plug-in Board</Choice>
+<Choice>Any CVS</Choice>
+<Choice>Any cRIO</Choice>
+<Choice>E002 (817x)</Choice>
+<Choice>E001 (FP, cFP)</Choice>
+<Choice>7063 (8186,8187)</Choice>
+<Choice>705F (cRIO)</Choice>
+<Choice>7002 (814x)</Choice>
+<Choice>701d (PCI 7041)</Choice>
+<Choice>Any RT</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Target</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Target Type</Name>
+<Choice>Any</Choice>
+<Choice>Host</Choice>
+<Choice>Any ETS</Choice>
+<Choice>Any RTX</Choice>
+<Choice>Any VxWorks</Choice>
+<Choice>Any PXI</Choice>
+<Choice>Any FP</Choice>
+<Choice>Plug-in Board</Choice>
+<Choice>Any CVS</Choice>
+<Choice>Any cRIO</Choice>
+<Choice>E002 (817x)</Choice>
+<Choice>E001 (FP, cFP)</Choice>
+<Choice>7063 (8186,8187)</Choice>
+<Choice>705F (cRIO)</Choice>
+<Choice>7002 (814x)</Choice>
+<Choice>701d (PCI 7041)</Choice>
+<Choice>Any RT</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>Alias</Name>
+<Val>Host</Val>
+</String>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Dependencies</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Dyn. Ld. VIs</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val></Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>Files</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>File</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>Local File Path</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Remote Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Permanent</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Report</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Array>
+<Name>Post-Test VIs</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>..\..\..\..\CommonSubVIs\Tools\Target Configuration\SSH\pre_enableSSH.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>..\..\..\..\CommonSubVIs\Tools\Target Configuration\SSH\pre_rebootAfterSSHEnable.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>Host</Val>
+</String>
+</Cluster>
+</Array>
+<String>
+<Name>Configuration Name</Name>
+<Val>More Software</Val>
+</String>
+<Boolean>
+<Name>Enable</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Test Adapter</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Array>
+<Name>SW Configuration</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>SW Configuration</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>Desired Software</Name>
+<Dimsize>27</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{899452D2-C085-430B-B76D-7FDB33BB324A}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>10.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>LabVIEW Real-Time</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{8946D3FB-8D14-4BFC-B401-2827F86364EB}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.3.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI System Configuration Remote Support</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{C8888A51-F22B-44F4-9486-C9D46EE90E05}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI RT Extensions for SMP (MultiCore Support)</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{25D93C94-D8AB-4DEE-930D-7CC4B0EBB92B}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI Web Monitoring and Configuration</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{076E75BF-A643-415F-9E91-22EB4742763B}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>2.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Web Server for LabVIEW RT</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{F45FF3C8-2940-4e60-87ED-2BC3D2301D21}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>HTTP Client</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{CAEAE9D7-F7D3-4EA5-957E-6F09F764EE3B}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>10.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>LabVIEW RT Common</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{035BDBDB-A575-408A-B28D-7AEB597D1123}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI System Web Server</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{7AFF4BC1-AF4B-4EBE-AE9A-ABD088A1FCDB}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI Application Web Server</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{0E521257-662A-4F13-9687-2B5E80BE22CB}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.7.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Network Variable Engine</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{4146CDEE-6832-4566-A05F-EBF47034DAD5}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Network Streams</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{C1207AB4-28E1-4B50-A3B3-6048246BB6FD}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.7.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Variable Client Support for LabVIEW RT</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{6E2BDAC6-D8D2-49B2-AB9D-E3E77C76B291}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Remote Config for IOVs</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{5125BB03-DF31-4690-A87C-CF17DEF35FEA}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>3.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Run-Time Engine for Web Services</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{DB78A098-8647-4e3b-9F12-C3234699234C}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>3.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>SSL Support for LabVIEW RT</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{B1EEF31C-95C9-433C-B345-950A233A8E50}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.7.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>EPICS Server I/O Server</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{121EF867-E024-4F36-BD71-455A446EBF9B}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>10.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>EPICS Client I/O Server</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{51234CC6-28E1-4b50-A342-6048B4CC21FD}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.7.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Modbus I/O Server</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{688CF93D-3CE4-4857-BD16-5C081620007D}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>4.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>DataSocket for LabVIEW Real-Time</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{4B855DFD-DF50-471B-B438-6096FD244423}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>3.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI Scan Engine</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{A7E4BD0D-3E71-4ECD-B9FC-1D360BED0769}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Time Configuration Web Support</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{5A0FD458-F336-4749-8548-9326219BB596}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Software Management Web Support</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{CBFAAEAA-D69C-4295-A511-2988A7CEC9B4}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Network Configuration Web Support</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{37638B3C-551E-46d4-9503-2DBBB5B1132D}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Hardware Configuration Web Support</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{497A2398-F021-46d5-B02E-4DB25E9080D6}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>System State Publisher</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{8D1E7E99-60D5-44F0-A5AD-65908580B9C6}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.2</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>FTP Server</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{F8064116-D2A9-4463-9CD7-F9C464E360BB}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.5.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI System Configuration</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Array>
+<EW>
+<Name>Clean-up method</Name>
+<Choice>None</Choice>
+<Choice>Uninstall All</Choice>
+<Choice>Format</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Force installation</Name>
+<Choice>If versions do not match</Choice>
+<Choice>If not recently installed</Choice>
+<Choice>Always</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Additional Software</Name>
+<Choice>Visible Dependencies (Highest)</Choice>
+<Choice>Visible Dependency (Lowest)</Choice>
+<Choice>None (Strict)</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>INI Config Settings</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Target Config Changes</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Config Changes</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Config Changes</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Tokens</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Section</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Key</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Action</Name>
+<Choice>Add/Replace</Choice>
+<Choice>Add/Append</Choice>
+<Choice>Remove</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>List separator (;)</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Reboot?</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+<Path>
+<Name>Remote INI Path</Name>
+<Val></Val>
+</Path>
+</Cluster>
+</Array>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Case Generator</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Test Iteration Info</Name>
+<NumElts>11</NumElts>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+<Array>
+<Name>Targets</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Target</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Target Type</Name>
+<Choice>Any</Choice>
+<Choice>Host</Choice>
+<Choice>Any ETS</Choice>
+<Choice>Any RTX</Choice>
+<Choice>Any VxWorks</Choice>
+<Choice>Any PXI</Choice>
+<Choice>Any FP</Choice>
+<Choice>Plug-in Board</Choice>
+<Choice>Any CVS</Choice>
+<Choice>Any cRIO</Choice>
+<Choice>E002 (817x)</Choice>
+<Choice>E001 (FP, cFP)</Choice>
+<Choice>7063 (8186,8187)</Choice>
+<Choice>705F (cRIO)</Choice>
+<Choice>7002 (814x)</Choice>
+<Choice>701d (PCI 7041)</Choice>
+<Choice>Any RT</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Target</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Target Type</Name>
+<Choice>Any</Choice>
+<Choice>Host</Choice>
+<Choice>Any ETS</Choice>
+<Choice>Any RTX</Choice>
+<Choice>Any VxWorks</Choice>
+<Choice>Any PXI</Choice>
+<Choice>Any FP</Choice>
+<Choice>Plug-in Board</Choice>
+<Choice>Any CVS</Choice>
+<Choice>Any cRIO</Choice>
+<Choice>E002 (817x)</Choice>
+<Choice>E001 (FP, cFP)</Choice>
+<Choice>7063 (8186,8187)</Choice>
+<Choice>705F (cRIO)</Choice>
+<Choice>7002 (814x)</Choice>
+<Choice>701d (PCI 7041)</Choice>
+<Choice>Any RT</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>Alias</Name>
+<Val>Host</Val>
+</String>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Dependencies</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Dyn. Ld. VIs</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val></Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>Files</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>File</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>Local File Path</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Remote Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Permanent</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Report</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Array>
+<Name>Post-Test VIs</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>Post_CheckSysCfg.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>localhost</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>..\..\..\..\CommonSubVIs\Tools\Target Configuration\SSH\pre_enableSSH.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>..\..\..\..\CommonSubVIs\Tools\Target Configuration\SSH\pre_rebootAfterSSHEnable.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>Host</Val>
+</String>
+</Cluster>
+</Array>
+<String>
+<Name>Configuration Name</Name>
+<Val>Default Software</Val>
+</String>
+<Boolean>
+<Name>Enable</Name>
+<Val>0</Val>
+</Boolean>
+<Cluster>
+<Name>Test Adapter</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Array>
+<Name>SW Configuration</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>SW Configuration</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>Desired Software</Name>
+<Dimsize>13</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{899452D2-C085-430B-B76D-7FDB33BB324A}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>10.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>LabVIEW Real-Time</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{C8888A51-F22B-44F4-9486-C9D46EE90E05}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI RT Extensions for SMP (MultiCore Support)</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{25D93C94-D8AB-4DEE-930D-7CC4B0EBB92B}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI Web Monitoring and Configuration</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{076E75BF-A643-415F-9E91-22EB4742763B}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>2.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Web Server for LabVIEW RT</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{F45FF3C8-2940-4e60-87ED-2BC3D2301D21}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>HTTP Client</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{CAEAE9D7-F7D3-4EA5-957E-6F09F764EE3B}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>10.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>LabVIEW RT Common</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{37638B3C-551E-46d4-9503-2DBBB5B1132D}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Hardware Configuration Web Support</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{CBFAAEAA-D69C-4295-A511-2988A7CEC9B4}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Network Configuration Web Support</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{5A0FD458-F336-4749-8548-9326219BB596}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Software Management Web Support</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{A7E4BD0D-3E71-4ECD-B9FC-1D360BED0769}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.1.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>Time Configuration Web Support</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{497A2398-F021-46d5-B02E-4DB25E9080D6}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>System State Publisher</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{8D1E7E99-60D5-44F0-A5AD-65908580B9C6}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>1.2</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>FTP Server</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{F8064116-D2A9-4463-9CD7-F9C464E360BB}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>5.5.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>NI System Configuration</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Array>
+<EW>
+<Name>Clean-up method</Name>
+<Choice>None</Choice>
+<Choice>Uninstall All</Choice>
+<Choice>Format</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Force installation</Name>
+<Choice>If versions do not match</Choice>
+<Choice>If not recently installed</Choice>
+<Choice>Always</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Additional Software</Name>
+<Choice>Visible Dependencies (Highest)</Choice>
+<Choice>Visible Dependency (Lowest)</Choice>
+<Choice>None (Strict)</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>INI Config Settings</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Target Config Changes</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Config Changes</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Config Changes</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Tokens</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Section</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Key</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Action</Name>
+<Choice>Add/Replace</Choice>
+<Choice>Add/Append</Choice>
+<Choice>Remove</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>List separator (;)</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Reboot?</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+<Path>
+<Name>Remote INI Path</Name>
+<Val></Val>
+</Path>
+</Cluster>
+</Array>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Case Generator</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Test Iteration Info</Name>
+<NumElts>11</NumElts>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+<Array>
+<Name>Targets</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Target</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Target Type</Name>
+<Choice>Any</Choice>
+<Choice>Host</Choice>
+<Choice>Any ETS</Choice>
+<Choice>Any RTX</Choice>
+<Choice>Any VxWorks</Choice>
+<Choice>Any PXI</Choice>
+<Choice>Any FP</Choice>
+<Choice>Plug-in Board</Choice>
+<Choice>Any CVS</Choice>
+<Choice>Any cRIO</Choice>
+<Choice>E002 (817x)</Choice>
+<Choice>E001 (FP, cFP)</Choice>
+<Choice>7063 (8186,8187)</Choice>
+<Choice>705F (cRIO)</Choice>
+<Choice>7002 (814x)</Choice>
+<Choice>701d (PCI 7041)</Choice>
+<Choice>Any RT</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Target</Name>
+<NumElts>2</NumElts>
+<EW>
+<Name>Target Type</Name>
+<Choice>Any</Choice>
+<Choice>Host</Choice>
+<Choice>Any ETS</Choice>
+<Choice>Any RTX</Choice>
+<Choice>Any VxWorks</Choice>
+<Choice>Any PXI</Choice>
+<Choice>Any FP</Choice>
+<Choice>Plug-in Board</Choice>
+<Choice>Any CVS</Choice>
+<Choice>Any cRIO</Choice>
+<Choice>E002 (817x)</Choice>
+<Choice>E001 (FP, cFP)</Choice>
+<Choice>7063 (8186,8187)</Choice>
+<Choice>705F (cRIO)</Choice>
+<Choice>7002 (814x)</Choice>
+<Choice>701d (PCI 7041)</Choice>
+<Choice>Any RT</Choice>
+<Val>1</Val>
+</EW>
+<String>
+<Name>Alias</Name>
+<Val>Host</Val>
+</String>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Dependencies</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Dyn. Ld. VIs</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>..\Target_Prep_PXI-Linux\Test_Install_IPK.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>localhost</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>Files</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>File</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>Local File Path</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Remote Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Permanent</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Report</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Array>
+<Name>Post-Test VIs</Name>
+<Dimsize>3</Dimsize>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>..\..\..\..\CommonSubVIs\Tools\Target Configuration\SSH\pre_enableSSH.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>..\..\..\..\CommonSubVIs\Tools\Target Configuration\DHCP Configuration\Pre_SetDHCPRetries.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Cluster 2</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>VI Path</Name>
+<Val>..\..\..\..\CommonSubVIs\Tools\Target Configuration\SSH\pre_rebootAfterSSHEnable.vi</Val>
+</Path>
+<EW>
+<Name>Type</Name>
+<Choice>Asynchronous VI</Choice>
+<Choice>Synchronous VI</Choice>
+<Choice>Just Load</Choice>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Target Alias</Name>
+<Val>Host</Val>
+</String>
+</Cluster>
+</Array>
+<String>
+<Name>Configuration Name</Name>
+<Val>All SW</Val>
+</String>
+<Boolean>
+<Name>Enable</Name>
+<Val>1</Val>
+</Boolean>
+<Cluster>
+<Name>Test Adapter</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Array>
+<Name>SW Configuration</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>SW Configuration</Name>
+<NumElts>4</NumElts>
+<Array>
+<Name>Desired Software</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Software Component</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>GUID</Name>
+<Val>{899452D2-C085-430B-B76D-7FDB33BB324A}</Val>
+</String>
+<EW>
+<Name>Version Selection Method</Name>
+<Choice>Highest</Choice>
+<Choice>Lowest</Choice>
+<Choice>Exactly</Choice>
+<Choice>Highest, with a min of</Choice>
+<Choice>Lowest, with a max of</Choice>
+<Choice>Highest, up to</Choice>
+<Choice>Lowest, down to</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Version</Name>
+<Val>16.0.0</Val>
+</String>
+<String>
+<Name>Title</Name>
+<Val>LabVIEW Real-Time</Val>
+</String>
+</Cluster>
+<Boolean>
+<Name>Optional</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+</Array>
+<EW>
+<Name>Clean-up method</Name>
+<Choice>None</Choice>
+<Choice>Uninstall All</Choice>
+<Choice>Format</Choice>
+<Val>2</Val>
+</EW>
+<EW>
+<Name>Force installation</Name>
+<Choice>If versions do not match</Choice>
+<Choice>If not recently installed</Choice>
+<Choice>Always</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Additional Software</Name>
+<Choice>Visible Dependencies (Highest)</Choice>
+<Choice>Visible Dependency (Lowest)</Choice>
+<Choice>None (Strict)</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<String>
+<Name>Target Alias</Name>
+<Val>Default</Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>INI Config Settings</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Target Config Changes</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Config Changes</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Config Changes</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Tokens</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Section</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Key</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Value</Name>
+<Val></Val>
+</String>
+<EW>
+<Name>Action</Name>
+<Choice>Add/Replace</Choice>
+<Choice>Add/Append</Choice>
+<Choice>Remove</Choice>
+<Val></Val>
+</EW>
+<String>
+<Name>List separator (;)</Name>
+<Val></Val>
+</String>
+<Boolean>
+<Name>Reboot?</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+<Path>
+<Name>Remote INI Path</Name>
+<Val></Val>
+</Path>
+</Cluster>
+</Array>
+<String>
+<Name>Target Alias</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<Cluster>
+<Name>Case Generator</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+<EW>
+<Name>Path Type</Name>
+<Choice>Relative to test</Choice>
+<Choice>Relative to config file</Choice>
+<Choice>Relative to Test Suite</Choice>
+<Choice>Absolute</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+</Cluster>
+</Array>
+</LVData>

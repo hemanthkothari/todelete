@@ -1,0 +1,614 @@
+<*_15:21:03_Init TS : OK
+Running as EXE
+Command-line arguments:
+RTATS
+_*>
+<*_15:21:03_Load TS Config : OK_*>
+<*_15:21:03_Apply TS Config : OK_*>
+<*_15:21:03_Apply TS Config [2] : OK_*>
+<*_15:21:03_Load Tests : OK_*>
+<*_15:21:03_Filter Tests : OK_*>
+<*_15:21:48_Test Selector : OK_*>
+<*_15:21:48_Apply TS Config [2] : OK_*>
+<*_15:21:48_Load Tests : OK_*>
+<*_15:21:48_Filter Tests : OK_*>
+<*_15:26:50_Test Selector : OK_*>
+<*_15:26:50_Validate Tests : OK
+
+_*>
+<*_15:27:22_Test Loop Init : OK
+Installed Distributions: 
+
+NI LabVIEW Run-Time Engine 2011 SP1 - Version: 11.1.0.0
+Path: \\in-ban-argo.natinst.com\NISoftwareReleased\Windows\Distributions\LabVIEW Add-ons\Run-Time Engine\2011\11.1.0\32-bit\standard\
+
+NI LabVIEW Run-Time Engine 2013 - Version: 13.0.0.0
+Path: \\in-ban-argo.natinst.com\NISoftwareReleased\Windows\Distributions\LabVIEW Add-ons\Run-Time Engine\2013\13.0.0\32-bit\standard\
+
+NI LabVIEW Run-Time Engine 8.5 - Version: 8.5.0.0
+Path: \\nibataserver\LV RT Utilities\RTE\8.5\
+
+NI LabVIEW 8.2.1 Runtime Engine - Version: 8.2.1.0
+Path: \\in-ban-argo.natinst.com\NISoftwareReleased\Windows\Distributions\LabVIEW Add-ons\Run-Time Engine\8.2\8.2.1\English\Daily\20070327_1819\
+
+NI LabVIEW Run-Time Engine 2009 - Version: 9.0.0.0
+Path: \\nibataserver\LV RT Utilities\RTE\9.0\
+_*>
+<*_15:27:23_Test Loop Begin : OK
+Current Test: NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi:_*>
+<*_15:27:23_Load Test Config : OK_*>
+<*_15:27:23_Config Cycle Begin : OK_*>
+<*_15:27:23_Find Targets : OK_*>
+<*_15:27:23_Case Cycle Init : OK_*>
+<*_15:27:23_Case Cycle Begin : OK_*>
+<*_15:27:23_Test Iteration Begin : OK_*>
+<*_15:27:23_Configure Target SW : OK
+
+_*>
+<*_15:27:23_Configure Target : OK_*>
+<*_15:27:24_Read Volatile Target Info : OK_*>
+<*_15:27:24_Load Dependencies : OK_*>
+<*_15:27:54_Run Dependencies : OK_*>
+<*_15:28:31_Run Test : OK
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:28:31_Run Post VI : OK_*>
+<*_15:28:31_Unload Depend. : OK_*>
+<*_15:28:31_Detailed Report : OK_*>
+<*_15:28:31_Summary : OK_*>
+<*_15:28:32_Test Iteration End : OK_*>
+<*_15:28:32_Test Iteration Reports : OK_*>
+<*_15:28:32_Case Cycle End : OK_*>
+<*_15:28:32_Config Cycle Begin : OK_*>
+<*_15:28:32_Find Targets : OK_*>
+<*_15:28:32_Case Cycle Init : OK_*>
+<*_15:28:32_Case Cycle Begin : OK_*>
+<*_15:28:32_Test Iteration Begin : OK_*>
+<*_15:28:32_Configure Target SW : OK
+
+_*>
+<*_15:28:32_Configure Target : OK_*>
+<*_15:28:32_Read Volatile Target Info : OK_*>
+<*_15:28:32_Load Dependencies : OK_*>
+<*_15:28:57_Run Dependencies : OK_*>
+<*_15:29:28_Run Test : OK
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:29:29_Run Post VI : OK_*>
+<*_15:29:29_Unload Depend. : OK_*>
+<*_15:29:29_Detailed Report : OK_*>
+<*_15:29:29_Summary : OK_*>
+<*_15:29:30_Test Iteration End : OK_*>
+<*_15:29:30_Test Iteration Reports : OK_*>
+<*_15:29:30_Case Cycle End : OK_*>
+<*_15:29:30_Test Loop End : OK_*>
+<*_15:29:30_Finalize Reports : OK_*>
+<*_15:29:30_Init TS : OK
+Error if any from the XML VI_*>
+<*_15:29:38_Test Selector : OK_*>
+<*_15:29:38_Validate Tests : OK
+
+_*>
+<*_15:30:00_Test Loop Init : OK
+Installed Distributions: 
+
+NI LabVIEW Run-Time Engine 2011 SP1 - Version: 11.1.0.0
+Path: \\in-ban-argo.natinst.com\NISoftwareReleased\Windows\Distributions\LabVIEW Add-ons\Run-Time Engine\2011\11.1.0\32-bit\standard\
+
+NI LabVIEW Run-Time Engine 2013 - Version: 13.0.0.0
+Path: \\in-ban-argo.natinst.com\NISoftwareReleased\Windows\Distributions\LabVIEW Add-ons\Run-Time Engine\2013\13.0.0\32-bit\standard\
+
+NI LabVIEW Run-Time Engine 8.5 - Version: 8.5.0.0
+Path: \\nibataserver\LV RT Utilities\RTE\8.5\
+
+NI LabVIEW 8.2.1 Runtime Engine - Version: 8.2.1.0
+Path: \\in-ban-argo.natinst.com\NISoftwareReleased\Windows\Distributions\LabVIEW Add-ons\Run-Time Engine\8.2\8.2.1\English\Daily\20070327_1819\
+
+NI LabVIEW Run-Time Engine 2009 - Version: 9.0.0.0
+Path: \\nibataserver\LV RT Utilities\RTE\9.0\
+_*>
+<*_15:30:00_Test Loop Begin : OK
+Current Test: NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi:_*>
+<*_15:30:00_Load Test Config : OK_*>
+<*_15:30:00_Config Cycle Begin : OK_*>
+<*_15:30:00_Find Targets : OK_*>
+<*_15:30:00_Case Cycle Init : OK_*>
+<*_15:30:00_Case Cycle Begin : OK_*>
+<*_15:30:00_Test Iteration Begin : OK_*>
+<*_15:30:00_Configure Target SW : OK
+
+_*>
+<*_15:30:00_Configure Target : OK_*>
+<*_15:30:00_Read Volatile Target Info : OK_*>
+<*_15:30:00_Load Dependencies : OK_*>
+<*_15:30:25_Run Dependencies : OK_*>
+<*_15:31:01_Run Test : OK
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:31:02_Run Post VI : OK_*>
+<*_15:31:02_Unload Depend. : OK_*>
+<*_15:31:02_Detailed Report : OK_*>
+<*_15:31:02_Summary : OK_*>
+<*_15:31:02_Test Iteration End : OK_*>
+<*_15:31:02_Test Iteration Reports : OK_*>
+<*_15:31:02_Case Cycle End : OK_*>
+<*_15:31:02_Config Cycle Begin : OK_*>
+<*_15:31:02_Find Targets : OK_*>
+<*_15:31:02_Case Cycle Init : OK_*>
+<*_15:31:02_Case Cycle Begin : OK_*>
+<*_15:31:02_Test Iteration Begin : OK_*>
+<*_15:31:02_Configure Target SW : OK
+
+_*>
+<*_15:31:02_Configure Target : OK_*>
+<*_15:31:02_Read Volatile Target Info : OK_*>
+<*_15:31:02_Load Dependencies : OK_*>
+<*_15:31:27_Run Dependencies : OK_*>
+<*_15:31:58_Run Test : OK
+NetworkStream\Test_NetworkStream_Sweep_BufferSize.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:31:58_Run Post VI : OK_*>
+<*_15:31:59_Unload Depend. : OK_*>
+<*_15:31:59_Detailed Report : OK_*>
+<*_15:31:59_Summary : OK_*>
+<*_15:31:59_Test Iteration End : OK_*>
+<*_15:31:59_Test Iteration Reports : OK_*>
+<*_15:31:59_Case Cycle End : OK_*>
+<*_15:31:59_Test Loop End : OK_*>
+<*_15:31:59_Test Loop Begin : OK
+Current Test: NetworkStream\Test_NetworkStream_Sweep_BufferSize_SMP.vi:_*>
+<*_15:31:59_Load Test Config : OK_*>
+<*_15:31:59_Config Cycle Begin : OK_*>
+<*_15:31:59_Find Targets : OK_*>
+<*_15:31:59_Case Cycle Init : OK_*>
+<*_15:31:59_Case Cycle Begin : OK_*>
+<*_15:31:59_Test Iteration Begin : OK_*>
+<*_15:31:59_Configure Target SW : OK
+
+_*>
+<*_15:31:59_Configure Target : OK_*>
+<*_15:31:59_Read Volatile Target Info : OK_*>
+<*_15:31:59_Load Dependencies : OK_*>
+<*_15:32:21_Run Dependencies : OK_*>
+<*_15:32:58_Run Test : OK
+NetworkStream\Test_NetworkStream_Sweep_BufferSize_SMP.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:32:58_Run Post VI : OK_*>
+<*_15:32:58_Unload Depend. : OK_*>
+<*_15:32:58_Detailed Report : OK_*>
+<*_15:32:58_Summary : OK_*>
+<*_15:32:59_Test Iteration End : OK_*>
+<*_15:32:59_Test Iteration Reports : OK_*>
+<*_15:32:59_Case Cycle End : OK_*>
+<*_15:32:59_Config Cycle Begin : OK_*>
+<*_15:32:59_Find Targets : OK_*>
+<*_15:32:59_Case Cycle Init : OK_*>
+<*_15:32:59_Case Cycle Begin : OK_*>
+<*_15:32:59_Test Iteration Begin : OK_*>
+<*_15:32:59_Configure Target SW : OK
+
+_*>
+<*_15:32:59_Configure Target : OK_*>
+<*_15:32:59_Read Volatile Target Info : OK_*>
+<*_15:32:59_Load Dependencies : OK_*>
+<*_15:33:25_Run Dependencies : OK_*>
+<*_15:33:56_Run Test : OK
+NetworkStream\Test_NetworkStream_Sweep_BufferSize_SMP.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:33:56_Run Post VI : OK_*>
+<*_15:33:57_Unload Depend. : OK_*>
+<*_15:33:57_Detailed Report : OK_*>
+<*_15:33:57_Summary : OK_*>
+<*_15:33:57_Test Iteration End : OK_*>
+<*_15:33:57_Test Iteration Reports : OK_*>
+<*_15:33:57_Case Cycle End : OK_*>
+<*_15:33:57_Test Loop End : OK_*>
+<*_15:33:58_Test Loop Begin : OK
+Current Test: NetworkStream\Test_NetworkStream_Sweep_NumElements.vi:_*>
+<*_15:33:58_Load Test Config : OK_*>
+<*_15:33:58_Config Cycle Begin : OK_*>
+<*_15:33:58_Find Targets : OK_*>
+<*_15:33:58_Case Cycle Init : OK_*>
+<*_15:33:58_Case Cycle Begin : OK_*>
+<*_15:33:58_Test Iteration Begin : OK_*>
+<*_15:33:58_Configure Target SW : OK
+
+_*>
+<*_15:33:58_Configure Target : OK_*>
+<*_15:33:58_Read Volatile Target Info : OK_*>
+<*_15:33:58_Load Dependencies : OK_*>
+<*_15:34:19_Run Dependencies : OK_*>
+<*_15:34:55_Run Test : OK
+NetworkStream\Test_NetworkStream_Sweep_NumElements.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:34:55_Run Post VI : OK_*>
+<*_15:34:55_Unload Depend. : OK_*>
+<*_15:34:55_Detailed Report : OK_*>
+<*_15:34:55_Summary : OK_*>
+<*_15:34:55_Test Iteration End : OK_*>
+<*_15:34:56_Test Iteration Reports : OK_*>
+<*_15:34:56_Case Cycle End : OK_*>
+<*_15:34:56_Config Cycle Begin : OK_*>
+<*_15:34:56_Find Targets : OK_*>
+<*_15:34:56_Case Cycle Init : OK_*>
+<*_15:34:56_Case Cycle Begin : OK_*>
+<*_15:34:56_Test Iteration Begin : OK_*>
+<*_15:34:56_Configure Target SW : OK
+
+_*>
+<*_15:34:56_Configure Target : OK_*>
+<*_15:34:56_Read Volatile Target Info : OK_*>
+<*_15:34:56_Load Dependencies : OK_*>
+<*_15:35:21_Run Dependencies : OK_*>
+<*_15:35:52_Run Test : OK
+NetworkStream\Test_NetworkStream_Sweep_NumElements.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:35:52_Run Post VI : OK_*>
+<*_15:35:53_Unload Depend. : OK_*>
+<*_15:35:53_Detailed Report : OK_*>
+<*_15:35:53_Summary : OK_*>
+<*_15:35:53_Test Iteration End : OK_*>
+<*_15:35:53_Test Iteration Reports : OK_*>
+<*_15:35:53_Case Cycle End : OK_*>
+<*_15:35:53_Test Loop End : OK_*>
+<*_15:35:53_Test Loop Begin : OK
+Current Test: NetworkStream\Test_NetworkStream_Sweep_NumElements_SMP.vi:_*>
+<*_15:35:53_Load Test Config : OK_*>
+<*_15:35:53_Config Cycle Begin : OK_*>
+<*_15:35:53_Find Targets : OK_*>
+<*_15:35:53_Case Cycle Init : OK_*>
+<*_15:35:53_Case Cycle Begin : OK_*>
+<*_15:35:53_Test Iteration Begin : OK_*>
+<*_15:35:53_Configure Target SW : OK
+
+_*>
+<*_15:35:53_Configure Target : OK_*>
+<*_15:35:53_Read Volatile Target Info : OK_*>
+<*_15:35:53_Load Dependencies : OK_*>
+<*_15:36:14_Run Dependencies : OK_*>
+<*_15:36:52_Run Test : OK
+NetworkStream\Test_NetworkStream_Sweep_NumElements_SMP.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:36:52_Run Post VI : OK_*>
+<*_15:36:52_Unload Depend. : OK_*>
+<*_15:36:53_Detailed Report : OK_*>
+<*_15:36:53_Summary : OK_*>
+<*_15:36:53_Test Iteration End : OK_*>
+<*_15:36:53_Test Iteration Reports : OK_*>
+<*_15:36:53_Case Cycle End : OK_*>
+<*_15:36:53_Config Cycle Begin : OK_*>
+<*_15:36:53_Find Targets : OK_*>
+<*_15:36:53_Case Cycle Init : OK_*>
+<*_15:36:53_Case Cycle Begin : OK_*>
+<*_15:36:53_Test Iteration Begin : OK_*>
+<*_15:36:53_Configure Target SW : OK
+
+_*>
+<*_15:36:53_Configure Target : OK_*>
+<*_15:36:53_Read Volatile Target Info : OK_*>
+<*_15:36:53_Load Dependencies : OK_*>
+<*_15:37:19_Run Dependencies : OK_*>
+<*_15:37:50_Run Test : OK
+NetworkStream\Test_NetworkStream_Sweep_NumElements_SMP.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:37:50_Run Post VI : OK_*>
+<*_15:37:51_Unload Depend. : OK_*>
+<*_15:37:51_Detailed Report : OK_*>
+<*_15:37:51_Summary : OK_*>
+<*_15:37:51_Test Iteration End : OK_*>
+<*_15:37:51_Test Iteration Reports : OK_*>
+<*_15:37:51_Case Cycle End : OK_*>
+<*_15:37:51_Test Loop End : OK_*>
+<*_15:37:51_Test Loop Begin : OK
+Current Test: NetworkStream\Test_NetworkStream_Throughput.vi:_*>
+<*_15:37:51_Load Test Config : OK_*>
+<*_15:37:51_Config Cycle Begin : OK_*>
+<*_15:37:51_Find Targets : OK_*>
+<*_15:37:51_Case Cycle Init : OK_*>
+<*_15:37:51_Case Cycle Begin : OK_*>
+<*_15:37:51_Test Iteration Begin : OK_*>
+<*_15:37:51_Configure Target SW : OK
+
+_*>
+<*_15:37:51_Configure Target : OK_*>
+<*_15:37:51_Read Volatile Target Info : OK_*>
+<*_15:37:51_Load Dependencies : OK_*>
+<*_15:38:13_Run Dependencies : OK_*>
+<*_15:38:24_Run Test : OK
+NetworkStream\Test_NetworkStream_Throughput.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:38:24_Run Post VI : OK_*>
+<*_15:38:24_Unload Depend. : OK_*>
+<*_15:38:24_Detailed Report : OK_*>
+<*_15:38:24_Summary : OK_*>
+<*_15:38:25_Test Iteration End : OK_*>
+<*_15:38:25_Test Iteration Reports : OK_*>
+<*_15:38:25_Case Cycle End : OK_*>
+<*_15:38:25_Config Cycle Begin : OK_*>
+<*_15:38:25_Find Targets : OK_*>
+<*_15:38:25_Case Cycle Init : OK_*>
+<*_15:38:25_Case Cycle Begin : OK_*>
+<*_15:38:25_Test Iteration Begin : OK_*>
+<*_15:38:25_Configure Target SW : OK
+
+_*>
+<*_15:38:25_Configure Target : OK_*>
+<*_15:38:25_Read Volatile Target Info : OK_*>
+<*_15:38:25_Load Dependencies : OK_*>
+<*_15:38:50_Run Dependencies : OK_*>
+<*_15:38:55_Run Test : OK
+NetworkStream\Test_NetworkStream_Throughput.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:38:56_Run Post VI : OK_*>
+<*_15:38:56_Unload Depend. : OK_*>
+<*_15:38:56_Detailed Report : OK_*>
+<*_15:38:56_Summary : OK_*>
+<*_15:38:57_Test Iteration End : OK_*>
+<*_15:38:57_Test Iteration Reports : OK_*>
+<*_15:38:57_Case Cycle End : OK_*>
+<*_15:38:57_Test Loop End : OK_*>
+<*_15:38:57_Test Loop Begin : OK
+Current Test: NetworkStream\Test_NetworkStream_Throughput_SMP.vi:_*>
+<*_15:38:57_Load Test Config : OK_*>
+<*_15:38:57_Config Cycle Begin : OK_*>
+<*_15:38:57_Find Targets : OK_*>
+<*_15:38:57_Case Cycle Init : OK_*>
+<*_15:38:57_Case Cycle Begin : OK_*>
+<*_15:38:57_Test Iteration Begin : OK_*>
+<*_15:38:57_Configure Target SW : OK
+
+_*>
+<*_15:38:57_Configure Target : OK_*>
+<*_15:38:57_Read Volatile Target Info : OK_*>
+<*_15:38:57_Load Dependencies : OK_*>
+<*_15:39:18_Run Dependencies : OK_*>
+<*_15:39:30_Run Test : OK
+NetworkStream\Test_NetworkStream_Throughput_SMP.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:39:30_Run Post VI : OK_*>
+<*_15:39:31_Unload Depend. : OK_*>
+<*_15:39:31_Detailed Report : OK_*>
+<*_15:39:31_Summary : OK_*>
+<*_15:39:31_Test Iteration End : OK_*>
+<*_15:39:31_Test Iteration Reports : OK_*>
+<*_15:39:31_Case Cycle End : OK_*>
+<*_15:39:31_Config Cycle Begin : OK_*>
+<*_15:39:31_Find Targets : OK_*>
+<*_15:39:31_Case Cycle Init : OK_*>
+<*_15:39:31_Case Cycle Begin : OK_*>
+<*_15:39:31_Test Iteration Begin : OK_*>
+<*_15:39:31_Configure Target SW : OK
+
+_*>
+<*_15:39:31_Configure Target : OK_*>
+<*_15:39:31_Read Volatile Target Info : OK_*>
+<*_15:39:31_Load Dependencies : OK_*>
+<*_15:39:57_Run Dependencies : OK_*>
+<*_15:40:03_Run Test : OK
+NetworkStream\Test_NetworkStream_Throughput_SMP.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:40:03_Run Post VI : OK_*>
+<*_15:40:04_Unload Depend. : OK_*>
+<*_15:40:04_Detailed Report : OK_*>
+<*_15:40:04_Summary : OK_*>
+<*_15:40:04_Test Iteration End : OK_*>
+<*_15:40:04_Test Iteration Reports : OK_*>
+<*_15:40:04_Case Cycle End : OK_*>
+<*_15:40:04_Test Loop End : OK_*>
+<*_15:40:04_Test Loop Begin : OK
+Current Test: TCP\Test_TCP_Sweep_NumElements.vi:_*>
+<*_15:40:04_Load Test Config : OK_*>
+<*_15:40:04_Config Cycle Begin : OK_*>
+<*_15:40:04_Find Targets : OK_*>
+<*_15:40:04_Case Cycle Init : OK_*>
+<*_15:40:04_Case Cycle Begin : OK_*>
+<*_15:40:04_Test Iteration Begin : OK_*>
+<*_15:40:04_Configure Target SW : OK
+
+_*>
+<*_15:40:04_Configure Target : OK_*>
+<*_15:40:04_Read Volatile Target Info : OK_*>
+<*_15:40:04_Load Dependencies : OK_*>
+<*_15:40:25_Run Dependencies : OK_*>
+<*_15:41:02_Run Test : OK
+TCP\Test_TCP_Sweep_NumElements.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:41:03_Run Post VI : OK_*>
+<*_15:41:03_Unload Depend. : OK_*>
+<*_15:41:03_Detailed Report : OK_*>
+<*_15:41:03_Summary : OK_*>
+<*_15:41:03_Test Iteration End : OK_*>
+<*_15:41:03_Test Iteration Reports : OK_*>
+<*_15:41:03_Case Cycle End : OK_*>
+<*_15:41:03_Config Cycle Begin : OK_*>
+<*_15:41:03_Find Targets : OK_*>
+<*_15:41:03_Case Cycle Init : OK_*>
+<*_15:41:03_Case Cycle Begin : OK_*>
+<*_15:41:03_Test Iteration Begin : OK_*>
+<*_15:41:03_Configure Target SW : OK
+
+_*>
+<*_15:41:03_Configure Target : OK_*>
+<*_15:41:03_Read Volatile Target Info : OK_*>
+<*_15:41:03_Load Dependencies : OK_*>
+<*_15:41:29_Run Dependencies : OK_*>
+<*_15:42:00_Run Test : OK
+TCP\Test_TCP_Sweep_NumElements.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:42:00_Run Post VI : OK_*>
+<*_15:42:01_Unload Depend. : OK_*>
+<*_15:42:01_Detailed Report : OK_*>
+<*_15:42:01_Summary : OK_*>
+<*_15:42:01_Test Iteration End : OK_*>
+<*_15:42:01_Test Iteration Reports : OK_*>
+<*_15:42:01_Case Cycle End : OK_*>
+<*_15:42:01_Test Loop End : OK_*>
+<*_15:42:01_Test Loop Begin : OK
+Current Test: TCP\Test_TCP_Sweep_NumElements_SMP.vi:_*>
+<*_15:42:01_Load Test Config : OK_*>
+<*_15:42:02_Config Cycle Begin : OK_*>
+<*_15:42:02_Find Targets : OK_*>
+<*_15:42:02_Case Cycle Init : OK_*>
+<*_15:42:02_Case Cycle Begin : OK_*>
+<*_15:42:02_Test Iteration Begin : OK_*>
+<*_15:42:02_Configure Target SW : OK
+
+_*>
+<*_15:42:02_Configure Target : OK_*>
+<*_15:42:02_Read Volatile Target Info : OK_*>
+<*_15:42:02_Load Dependencies : OK_*>
+<*_15:42:23_Run Dependencies : OK_*>
+<*_15:43:02_Run Test : OK
+TCP\Test_TCP_Sweep_NumElements_SMP.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:43:03_Run Post VI : OK_*>
+<*_15:43:03_Unload Depend. : OK_*>
+<*_15:43:03_Detailed Report : OK_*>
+<*_15:43:03_Summary : OK_*>
+<*_15:43:03_Test Iteration End : OK_*>
+<*_15:43:04_Test Iteration Reports : OK_*>
+<*_15:43:04_Case Cycle End : OK_*>
+<*_15:43:04_Config Cycle Begin : OK_*>
+<*_15:43:04_Find Targets : OK_*>
+<*_15:43:04_Case Cycle Init : OK_*>
+<*_15:43:04_Case Cycle Begin : OK_*>
+<*_15:43:04_Test Iteration Begin : OK_*>
+<*_15:43:04_Configure Target SW : OK
+
+_*>
+<*_15:43:04_Configure Target : OK_*>
+<*_15:43:04_Read Volatile Target Info : OK_*>
+<*_15:43:04_Load Dependencies : OK_*>
+<*_15:43:29_Run Dependencies : OK_*>
+<*_15:44:05_Run Test : OK
+TCP\Test_TCP_Sweep_NumElements_SMP.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:44:05_Run Post VI : OK_*>
+<*_15:44:05_Unload Depend. : OK_*>
+<*_15:44:06_Detailed Report : OK_*>
+<*_15:44:06_Summary : OK_*>
+<*_15:44:06_Test Iteration End : OK_*>
+<*_15:44:06_Test Iteration Reports : OK_*>
+<*_15:44:06_Case Cycle End : OK_*>
+<*_15:44:06_Test Loop End : OK_*>
+<*_15:44:06_Test Loop Begin : OK
+Current Test: TCP\Test_TCP_Throughput.vi:_*>
+<*_15:44:06_Load Test Config : OK_*>
+<*_15:44:06_Config Cycle Begin : OK_*>
+<*_15:44:06_Find Targets : OK_*>
+<*_15:44:06_Case Cycle Init : OK_*>
+<*_15:44:06_Case Cycle Begin : OK_*>
+<*_15:44:06_Test Iteration Begin : OK_*>
+<*_15:44:06_Configure Target SW : OK
+
+_*>
+<*_15:44:06_Configure Target : OK_*>
+<*_15:44:06_Read Volatile Target Info : OK_*>
+<*_15:44:06_Load Dependencies : OK_*>
+<*_15:44:27_Run Dependencies : OK_*>
+<*_15:44:39_Run Test : OK
+TCP\Test_TCP_Throughput.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:44:39_Run Post VI : OK_*>
+<*_15:44:39_Unload Depend. : OK_*>
+<*_15:44:39_Detailed Report : OK_*>
+<*_15:44:39_Summary : OK_*>
+<*_15:44:39_Test Iteration End : OK_*>
+<*_15:44:40_Test Iteration Reports : OK_*>
+<*_15:44:40_Case Cycle End : OK_*>
+<*_15:44:40_Config Cycle Begin : OK_*>
+<*_15:44:40_Find Targets : OK_*>
+<*_15:44:40_Case Cycle Init : OK_*>
+<*_15:44:40_Case Cycle Begin : OK_*>
+<*_15:44:40_Test Iteration Begin : OK_*>
+<*_15:44:40_Configure Target SW : OK
+
+_*>
+<*_15:44:40_Configure Target : OK_*>
+<*_15:44:40_Read Volatile Target Info : OK_*>
+<*_15:44:40_Load Dependencies : OK_*>
+<*_15:45:05_Run Dependencies : OK_*>
+<*_15:45:11_Run Test : OK
+TCP\Test_TCP_Throughput.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:45:11_Run Post VI : OK_*>
+<*_15:45:11_Unload Depend. : OK_*>
+<*_15:45:11_Detailed Report : OK_*>
+<*_15:45:11_Summary : OK_*>
+<*_15:45:12_Test Iteration End : OK_*>
+<*_15:45:12_Test Iteration Reports : OK_*>
+<*_15:45:12_Case Cycle End : OK_*>
+<*_15:45:12_Test Loop End : OK_*>
+<*_15:45:12_Test Loop Begin : OK
+Current Test: TCP\Test_TCP_Throughput_SMP.vi:_*>
+<*_15:45:12_Load Test Config : OK_*>
+<*_15:45:12_Config Cycle Begin : OK_*>
+<*_15:45:12_Find Targets : OK_*>
+<*_15:45:12_Case Cycle Init : OK_*>
+<*_15:45:12_Case Cycle Begin : OK_*>
+<*_15:45:12_Test Iteration Begin : OK_*>
+<*_15:45:12_Configure Target SW : OK
+
+_*>
+<*_15:45:12_Configure Target : OK_*>
+<*_15:45:12_Read Volatile Target Info : OK_*>
+<*_15:45:12_Load Dependencies : OK_*>
+<*_15:45:33_Run Dependencies : OK_*>
+<*_15:45:45_Run Test : OK
+TCP\Test_TCP_Throughput_SMP.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:45:45_Run Post VI : OK_*>
+<*_15:45:45_Unload Depend. : OK_*>
+<*_15:45:45_Detailed Report : OK_*>
+<*_15:45:46_Summary : OK_*>
+<*_15:45:46_Test Iteration End : OK_*>
+<*_15:45:46_Test Iteration Reports : OK_*>
+<*_15:45:46_Case Cycle End : OK_*>
+<*_15:45:46_Config Cycle Begin : OK_*>
+<*_15:45:46_Find Targets : OK_*>
+<*_15:45:46_Case Cycle Init : OK_*>
+<*_15:45:46_Case Cycle Begin : OK_*>
+<*_15:45:46_Test Iteration Begin : OK_*>
+<*_15:45:46_Configure Target SW : OK
+
+_*>
+<*_15:45:46_Configure Target : OK_*>
+<*_15:45:46_Read Volatile Target Info : OK_*>
+<*_15:45:46_Load Dependencies : OK_*>
+<*_15:46:12_Run Dependencies : OK_*>
+<*_15:46:18_Run Test : OK
+TCP\Test_TCP_Throughput_SMP.vi: Passed
+Connector Pane Used: STR-Performance_Error_Param
+_*>
+<*_15:46:18_Run Post VI : OK_*>
+<*_15:46:18_Unload Depend. : OK_*>
+<*_15:46:19_Detailed Report : OK_*>
+<*_15:46:19_Summary : OK_*>
+<*_15:46:19_Test Iteration End : OK_*>
+<*_15:46:19_Test Iteration Reports : OK_*>
+<*_15:46:19_Case Cycle End : OK_*>
+<*_15:46:20_Test Loop End : OK_*>
+<*_15:46:20_Finalize Reports : OK_*>
+<*_15:46:20_Init TS : OK
+Error if any from the XML VI_*>
